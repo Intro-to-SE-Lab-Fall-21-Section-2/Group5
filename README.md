@@ -11,7 +11,7 @@ Real Name:  Khem Dhami         Github Name: kbd167  <br />
 
 ## Description: 
 A Web-based email client written with Python and Flask.  <br />
-
+Other technologies include IMAP and SMTP to recieve and send mail <br />
 
 
 ## Objective: 
