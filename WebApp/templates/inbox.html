@@ -1,0 +1,3389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Email Client</title>
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+<script src="//cdn.ckeditor.com/4.14.1/basic/ckeditor.js">
+</script>
+<style>
+tr:hover {background-color: grey;}
+</style>
+</head>
+<body class="text-center">
+<div class="container">
+<h1>Inbox</h1>
+<form action="inbox"method="POST">
+<input type="search" name= "search" id="searchInbox" class="form-control" placeholder="Search Inbox" required autofocus value=""> 
+<button class="btn btn-lg btn-danger btn-block" type="submit">Search Text</button> 
+</form><table class="table">
+<thead class="thead-dark">
+<tr>
+<th scope="col">Sender</th>
+<th scope="col">Subject</th>
+<th scope="col">Time</th>
+</tr>
+</thead>
+<tr class="w3-animate-zoom" onclick="openEmail17();">
+<td>msuwebmail1@gmail.com</td>
+<td>aasdlfkj</td>
+<td><p>Thu, 21 Oct 21 11:29PM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email17">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: msuwebmail1@gmail.com<br>
+Subject: aasdlfkj</h5>
+<h6>Date: Thu, 21 Oct 21 11:29PM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: aasdlfkj` , `
+` , ``, `msuwebmail1@gmail.co`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+aasdlfkj` , `
+` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail17();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail17(){
+document.getElementById("email17").style.display = "block";
+}
+function closeEmail17() {
+document.getElementById("email17").style.display = "none";
+}
+</script>
+</td>
+</tr>
+<tr class="w3-animate-zoom" onclick="openEmail16();">
+<td>The Google team <google-noreply@goo</td>
+<td>Msu, take the next step on your Linux by confirming your Google
+ Account settings</td>
+<td><p>Thu, 21 Oct 21 04:35PM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email16">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: The Google team <google-noreply@goo<br>
+Subject: Msu, take the next step on your Linux by confirming your Google
+ Account settings</h5>
+<h6>Date: Thu, 21 Oct 21 04:35PM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">
+<!doctype html public "- / /w3c / /dtd xhtml 1.0 transitional / /en" "http: / /www.w3.org /tr /xhtml1 /dtd /xhtml1-transitional.dtd">
+
+<html xmlns=http://www.w3.org/1999/xhtml xmlns:v=urn:schemas-microsoft-com:vml xmlns:o=urn:schemas-microsoft-com:office:office lang=en>
+
+<head>
+
+<title>Finish setting up your device
+</title>
+
+<meta name=x-apple-disable-message-reformatting>
+
+<meta http-equiv=X-UA-Compatible>
+
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+
+<meta name=viewport content="initial-scale = 1.0,maximum-scale = 1.0">
+
+<meta name=HandheldFriendly content=true>
+
+<meta name=MobileOptimized content=482>
+
+<meta name=viewport content=target-densitydpi=device-dpi>
+
+<link href=https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i rel=stylesheet>
+
+<style> table td { border-collapse: collapse; } * { -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -o-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } img + div {display:none; display:none !important;} 
+</style>
+
+<style>
+/* Potrait for Pixel2 */
+@media only screen and (min-width: 411px) and (max-width: 412px) and (orientation:portrait){
+.head_cls {font-size: 22px !important;}
+.subhead_cls{font-size: 18px !important;}
+.headline_cls{font-size: 20px !important;}
+.subheadline_cls{font-size: 16px !important;}
+.cta_btn{font-size: 16px !important;}
+.footer_address{font-size: 14px !important;}
+}
+/*-- portrait for iphone */
+@media only screen and (device-width: 375px) and (orientation:portrait){
+.head_cls {font-size: 22px !important;}
+.subhead_cls{font-size: 18px !important;}
+.headline_cls{font-size: 20px !important;}
+.subheadline_cls{font-size: 16px !important;}
+.cta_btn{font-size: 16px !important;}
+.footer_address{font-size: 14px !important;}
+}
+/*-- Landscape for iPhone --*/
+@media only screen and (device-width: 375px) and (orientation:landscape){
+.head_cls {font-size: 22px !important;}
+.subhead_cls{font-size: 18px !important;}
+.headline_cls{font-size: 20px !important;}
+.subheadline_cls{font-size: 16px !important;}
+.cta_btn{font-size: 16px !important;}
+.footer_address{font-size: 14px !important;}
+}
+
+</style>
+
+<style>
+.mobile_only { display:none; font-size:0px; line-height:0; height:0px; max-height:0px; overflow:hidden; }
+
+</style>
+
+<style>
+@media screen and (max-width:900px){
+.footer_main{padding-bottom:0px !important;}
+.main_table{width:100% !important;}
+.subheadline_cls{padding-left: 40px !important; padding-right: 40px !important;}
+}
+
+</style>
+
+<!--[if mso]>
+
+<style>
+html, body, table, tr, td, div{
+font-family: Arial, sans-serif !important;
+}
+
+</style>
+
+<![endif]-->
+
+<!--[if gte mso 9]>
+
+<xml>
+
+<o:OfficeDocumentSettings>
+
+<o:AllowPNG/>
+
+<o:PixelsPerInch>96
+</o:PixelsPerInch>
+
+</o:OfficeDocumentSettings>
+
+</xml>
+
+<![endif]-->
+
+</head>
+
+<body style="color:#444444; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; margin:0; padding:0; " class="body ">
+
+<div style="display:none; font-size:1px; color:#333333; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">
+</div>
+
+<section>
+
+<center class=wrapper_app style="width:100%; margin:4px auto 0 auto;">
+
+<!--[if gte mso 9]> 
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="width:600px; margin:0; padding:0; table-layout:fixed; ">
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-- --> 
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style="margin:0 auto; padding:0; table-layout:fixed; ">
+
+<![endif]--> 
+<tr style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;">
+
+<td style="background:#ffffff;max-width:600px; padding: 0; margin: 0;width:600px;" width=600 align=center bgcolor=#ffffff class=main_table>
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 width=480 style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; max-width:480px; width:480px; background-color: #F8F9FA; ">
+
+<tr border=0 style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;">
+
+<td align="" valign="" bgcolor="" width="" height="" class="" style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; ">
+
+<table role=presentation width=480 bgcolor=#ffffff border=0 cellpadding=0 cellspacing=0 style="border-collapse: collapse; border-spacing: 0; padding:0; margin:0 auto; background:#ffffff; width:480px; min-width:480px;" align=center>
+
+<tr>
+
+<td width=100% style="width:100%; text-align:center; padding-top: 21px; padding-bottom: 10px; " align=center valign=top>
+
+<img role=presentation src=https://services.google.com/fh/files/emails/google_logo_orig.png width=88 style=width:88px;>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=head_cls style="padding-top:16px; padding-bottom:6px; width:100%; padding-left:15px; padding-right:15px; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size: 20px; line-height: 30px; color: #202124; text-align:center; font-weight:500; background-color: #F8F9FA; direction: ltr; " width=100% dir=ltr>Hi Msu,
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subhead_cls style="padding-top:0px; padding-bottom:8px; width:100%; font-weight:normal; padding-left:35px; padding-right:35px; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size: 16px; mso-line-height-rule: exactly; color:#3C4043; text-align:center; background-color: #F8F9FA; line-height:24px; direction: ltr; " width=100% dir=ltr>Welcome to Google on your new 
+<span style="white-space:nowrap; " class="">Linux.
+</span>
+<br> Next, take these 2 steps to confirm your Google Account settings.
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr border=0 style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;">
+
+<td align="" valign="" bgcolor="" width="" height="" class="" style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; ">
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style=width:464px; width=464 align=center>
+
+<tr>
+
+<td width=464 style="-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;">
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td style="padding: 0 8px;background-color: #ffffff; border: 1px solid #DADCE0; border-radius: 8px;">
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100% style="border-bottom: 1px solid #DADCE0;">
+
+<tr>
+
+<td align=center style="padding-top:27px; padding-bottom:0px; " valign=top>
+
+<img role=presentation class=module_mobile width=45 border=0 src=http://services.google.com/fh/files/emails/privacy_checkup_green_96dp_new.png style="width: 45px; text-align: center; border: none; font-size:9px;">
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align=center class=headline_cls style="color:#202124; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:18px; font-weight:400; line-height:27px; margin:0; padding:0 40px 5px 40px; text-align:center; word-break:normal;direction:ltr; " dir=ltr>Step 1: Privacy Checkup
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subheadline_cls align=center style="color:#3C4043; font-family:Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; line-height:21px; margin:0; padding:0 40px 20px 40px; text-align:center; word-break:normal;direction:ltr; color: #5F6368;" dir=ltr>Confirm key settings and the data Google uses to personalize your experience
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cta_class tst1" style="text-align: center; padding: 0; padding-bottom:30px; ">
+
+<div>
+
+<!--[if mso]>
+
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://notifications.google.com/g/p/AD-FnExmcq6M0Z4uK3eS6ovyoIYV3Sfca9mwLlvDbGjc6ywTSfl8WUxkhUhJNRa3-_t4TSI-hi-Fvw132givl9G7WTV9HpgsKkEq5YObtUdb4NbvRsWzCIMsPr8-xSJ61Aq55W-jGh3KpTrG0NtUe2CM61hxHafKEXL_nVbciGhPqcIWl2osOvKXe-fBqH9f0k293bCqx19cLo8W7ScX1vVAmt77Hq1Jg2YB3hqIzO3fIsgf_ouMhUrcbsX7Ce_U6UKLxxoD4EpP7uzCDnQgqlsAAw9uqw49QREyPGfTbw" style="height:36px; v-text-anchor:middle; width:115px;" arcsize="16%" strokecolor="#1A73E8" fillcolor="#1A73E8;">
+
+<w:anchorlock/>
+
+<center style="color:#ffffff; word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal;" dir="ltr">Confirm Privacy Settings
+</center>
+
+</v:roundrect>
+
+<a href="https://notifications.google.com/g/p/AD-FnExmcq6M0Z4uK3eS6ovyoIYV3Sfca9mwLlvDbGjc6ywTSfl8WUxkhUhJNRa3-_t4TSI-hi-Fvw132givl9G7WTV9HpgsKkEq5YObtUdb4NbvRsWzCIMsPr8-xSJ61Aq55W-jGh3KpTrG0NtUe2CM61hxHafKEXL_nVbciGhPqcIWl2osOvKXe-fBqH9f0k293bCqx19cLo8W7ScX1vVAmt77Hq1Jg2YB3hqIzO3fIsgf_ouMhUrcbsX7Ce_U6UKLxxoD4EpP7uzCDnQgqlsAAw9uqw49QREyPGfTbw" class="cta_btn tst2" target="_blank" style="background-color:#1A73E8; border:1px solid #1A73E8; border-radius:4px; color:#ffffff; display:inline-block; line-height:16px; text-decoration:none;padding: 10px 26px 9px 26px; -webkit-text-size-adjust:none;mso-hide:all; text-align: center; word-break:normal; direction:ltr; font-size:14px; font-family:Arial;font-weight:normal; " dir="ltr">Confirm Privacy Settings
+</a>
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-->
+
+<a href=https://notifications.google.com/g/p/AD-FnExmcq6M0Z4uK3eS6ovyoIYV3Sfca9mwLlvDbGjc6ywTSfl8WUxkhUhJNRa3-_t4TSI-hi-Fvw132givl9G7WTV9HpgsKkEq5YObtUdb4NbvRsWzCIMsPr8-xSJ61Aq55W-jGh3KpTrG0NtUe2CM61hxHafKEXL_nVbciGhPqcIWl2osOvKXe-fBqH9f0k293bCqx19cLo8W7ScX1vVAmt77Hq1Jg2YB3hqIzO3fIsgf_ouMhUrcbsX7Ce_U6UKLxxoD4EpP7uzCDnQgqlsAAw9uqw49QREyPGfTbw target=_blank dir=ltr style="text-align: center; display: inline-block;">
+
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+
+<tr style="padding: 0; margin: 0; font-size: 0; line-height: 0;">
+<td style="border-top: 6px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;display:inline-block;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;">
+</td>
+</tr>
+
+<tr>
+<td style="background-color:#1A73E8;border:1px solid #1A73E8;border-radius:4px;color:#ffffff;display:inline-block;font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px;line-height:21px;text-decoration:none;padding: 7px 26px 6px 26px;-webkit-text-size-adjust:none;mso-hide:all;font-weight:500;text-align: center;direction:ltr;" class="cta_btn tst1">Confirm Privacy Settings
+
+</td>
+</tr>
+
+<tr style="padding: 0; margin: 0; font-size: 0; line-height: 0;">
+<td style="border-top: 6px solid #ffffff;display:inline-block;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;">
+</td>
+</tr>
+
+</table>
+</a>
+
+<!--
+<![endif]-->
+
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100% style="border-bottom: 1px solid #DADCE0;">
+
+<tr>
+
+<td align=center style="padding-top:29px; padding-bottom:3px; " valign=top>
+
+<img role=presentation class=module_mobile width=45 border=0 src=http://services.google.com/fh/files/emails/security_checkup_green_96dp_2x_new.png style="width: 45px; text-align: center; border: none; font-size:9px;">
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align=center class=headline_cls style="color:#202124; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:18px; font-weight:400; line-height:27px; margin:0; padding:0 40px 7px 40px; text-align:center; word-break:normal;direction:ltr; " dir=ltr>Step 2: Security Checkup
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subheadline_cls align=center style="color:#3C4043; font-family:Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; line-height:21px; margin:0; padding:0 45px 18px 45px; text-align:center; word-break:normal; direction:ltr; color: #5F6368;" dir=ltr>Confirm what devices may have access to your Google Account and more
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cta_class tst2" style="text-align: center; padding: 0; padding-bottom:30px; ">
+
+<div>
+
+<!--[if mso]>
+
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://notifications.google.com/g/p/AD-FnEyDZiMQPT9ZmKBpjGouJqF5gTWHcLisZu7GG_JMCR3O60n37hPSIpmfCOZoriMBRc7vChPcaAzW--Vp8NUkCIxqmpdB4JdTJTgecO1NlnZPFCxQqRYKGsO3vQIyq6OhOZEGVVzsDMIgh57aZtgaszgodHw7SWIq3d9B1QVJKTnheoO41dLAS_Z7OpJw_0fUtUxn31XV-cPMo4TYa5TywzNqWZq3AuO-RN_e8Favy9zlFaosw_ngZj87oBWaEbs8yGuk9lLBAKNvbHgHOJjU" style="height:36px; v-text-anchor:middle; width:115px;" arcsize="16%" strokecolor="#1A73E8" fillcolor="#1A73E8;">
+
+<w:anchorlock/>
+
+<center style="color:#ffffff; word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal;" dir="ltr">Check Security Status
+</center>
+
+</v:roundrect>
+
+<a href="https://notifications.google.com/g/p/AD-FnEyDZiMQPT9ZmKBpjGouJqF5gTWHcLisZu7GG_JMCR3O60n37hPSIpmfCOZoriMBRc7vChPcaAzW--Vp8NUkCIxqmpdB4JdTJTgecO1NlnZPFCxQqRYKGsO3vQIyq6OhOZEGVVzsDMIgh57aZtgaszgodHw7SWIq3d9B1QVJKTnheoO41dLAS_Z7OpJw_0fUtUxn31XV-cPMo4TYa5TywzNqWZq3AuO-RN_e8Favy9zlFaosw_ngZj87oBWaEbs8yGuk9lLBAKNvbHgHOJjU" class="cta_btn tst2" target="_blank" style="background-color:#1A73E8; border:1px solid #1A73E8; border-radius:4px; color:#ffffff; display:inline-block; font-size:14px; line-height:16px; text-decoration:none; padding:10px 25px 9px 25px; -webkit-text-size-adjust:none;mso-hide:all; text-align:center;word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal; " dir="ltr">Check Security Status
+</a>
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-->
+
+<a href=https://notifications.google.com/g/p/AD-FnEyDZiMQPT9ZmKBpjGouJqF5gTWHcLisZu7GG_JMCR3O60n37hPSIpmfCOZoriMBRc7vChPcaAzW--Vp8NUkCIxqmpdB4JdTJTgecO1NlnZPFCxQqRYKGsO3vQIyq6OhOZEGVVzsDMIgh57aZtgaszgodHw7SWIq3d9B1QVJKTnheoO41dLAS_Z7OpJw_0fUtUxn31XV-cPMo4TYa5TywzNqWZq3AuO-RN_e8Favy9zlFaosw_ngZj87oBWaEbs8yGuk9lLBAKNvbHgHOJjU target=_blank dir=ltr style="text-align: center; display: inline-block;">
+
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+
+<tr style="padding: 0; margin: 0; font-size: 0; line-height: 0;">
+<td style="border-top: 6px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;display:inline-block;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;">
+</td>
+</tr>
+
+<tr>
+<td style="background-color:#1A73E8;border:1px solid #1A73E8;border-radius:4px;color:#ffffff;display:inline-block;font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px;line-height:21px;text-decoration:none;padding: 7px 26px 6px 26px;-webkit-text-size-adjust:none;mso-hide:all;font-weight:500;text-align: center;direction:ltr; padding: 7px 25px 6px 25px;" class=cta_btn>Check Security Status
+
+</td>
+</tr>
+
+<tr style="padding: 0; margin: 0; font-size: 0; line-height: 0;">
+<td style="border-top: 6px solid #ffffff;display:inline-block;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;">
+</td>
+</tr>
+
+</table>
+</a>
+
+<!--
+<![endif]-->
+
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td align=center style="padding-top:27px; padding-bottom:0px; " valign=top>
+
+<img role=presentation class=module_mobile width=39 border=0 src=https://www.gstatic.com/images/branding/product/2x/email_64dp.png style="width: 39px; text-align: center; border: none; font-size:9px;">
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align=center class=headline_cls style="color:#202124; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:18px; font-weight:400; line-height:27px; margin:0; padding:0 40px 5px 40px; text-align:center; word-break:normal;direction:ltr; " dir=ltr>Want to stay in the loop?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subheadline_cls align=center style="color:#3C4043; font-family:Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; line-height:21px; margin:0; padding:0 40px 20px 40px; text-align:center; word-break:normal;direction:ltr; color: #5F6368;" dir=ltr>Sign up to receive personalized tips, news and recommendations to help you get the most out of your Google Account.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cta_class tst3" style="text-align: center; padding: 0; padding-bottom:30px; ">
+
+<div>
+
+<!--[if mso]>
+
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://notifications.google.com/g/p/AD-FnExR5_QxHO0EhahjAIrq70EaLcvAS6BHCkJlAXNpkmfj_9QUNc4Jx96tVLA804wphZHnj3kp51GgR9t1YvkLrVwxs8tT6GwNTzFczTA976c80sOmmTMkhXwnwmlRnPSLxActiafQWLYPHh6W-hirbi76sVDxddou-I5SBx1zDOJQ7Rr1TpjcZC-ftkwr_z-J2HpO0dVK2OZWPAEHlNQpAsBA0isf4NgQKqXKO54H-kICjcILbdXcKdDFxuRhPNqG0PVgvxT5ozUs9ZmNdFD_-er6mTsK7j7VOALukXnIp9RshyArLIvILgd6gg" style="height:36px; v-text-anchor:middle; width:130px;" arcsize="16%" strokecolor="#1A73E8" fillcolor="#1A73E8;">
+
+<w:anchorlock/>
+
+<center style="color:#ffffff; word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal;" dir="ltr">Keep me updated
+</center>
+
+</v:roundrect>
+
+<a href="https://notifications.google.com/g/p/AD-FnExR5_QxHO0EhahjAIrq70EaLcvAS6BHCkJlAXNpkmfj_9QUNc4Jx96tVLA804wphZHnj3kp51GgR9t1YvkLrVwxs8tT6GwNTzFczTA976c80sOmmTMkhXwnwmlRnPSLxActiafQWLYPHh6W-hirbi76sVDxddou-I5SBx1zDOJQ7Rr1TpjcZC-ftkwr_z-J2HpO0dVK2OZWPAEHlNQpAsBA0isf4NgQKqXKO54H-kICjcILbdXcKdDFxuRhPNqG0PVgvxT5ozUs9ZmNdFD_-er6mTsK7j7VOALukXnIp9RshyArLIvILgd6gg" class="cta_btn tst3" target="_blank" style="background-color:#1A73E8; border:1px solid #1A73E8; border-radius:4px; color:#ffffff; display:inline-block; font-size:14px; line-height:21px; text-decoration:none;padding: 10px 26px 9px 26px; -webkit-text-size-adjust:none;mso-hide:all; text-align: center; word-break:normal; direction:ltr; font-size:14px; font-family:Arial;font-weight:normal; " dir="ltr">Keep me updated
+
+</a>
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-->
+
+<a href=https://notifications.google.com/g/p/AD-FnExR5_QxHO0EhahjAIrq70EaLcvAS6BHCkJlAXNpkmfj_9QUNc4Jx96tVLA804wphZHnj3kp51GgR9t1YvkLrVwxs8tT6GwNTzFczTA976c80sOmmTMkhXwnwmlRnPSLxActiafQWLYPHh6W-hirbi76sVDxddou-I5SBx1zDOJQ7Rr1TpjcZC-ftkwr_z-J2HpO0dVK2OZWPAEHlNQpAsBA0isf4NgQKqXKO54H-kICjcILbdXcKdDFxuRhPNqG0PVgvxT5ozUs9ZmNdFD_-er6mTsK7j7VOALukXnIp9RshyArLIvILgd6gg target=_blank dir=ltr style="text-align: center; display: inline-block;">
+
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+
+<tr style="padding: 0; margin: 0; font-size: 0; line-height: 0;">
+<td style="border-top: 6px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;display:inline-block;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;">
+</td>
+</tr>
+
+<tr>
+<td style="background-color:#1A73E8;border:1px solid #1A73E8;border-radius:4px;color:#ffffff;display:inline-block;font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px;line-height:21px;text-decoration:none;padding: 7px 26px 6px 26px;-webkit-text-size-adjust:none;mso-hide:all;font-weight:500;text-align: center;direction:ltr; " class=cta_btn>Keep me updated
+
+</td>
+</tr>
+
+<tr style="padding: 0; margin: 0; font-size: 0; line-height: 0;">
+<td style="border-top: 6px solid #ffffff;display:inline-block;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;">
+</td>
+</tr>
+
+</table>
+</a>
+
+<!--
+<![endif]-->
+
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr border=0 style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;">
+
+<td align="" valign="" bgcolor="" width="" height="" class="" style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; ">
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style="width:480px; background-color:#F8F9FA" width=480>
+
+<tbody>
+
+<tr>
+
+<td align=center valign="" bgcolor=FFFFFF width="" height="" class=footer_main style="border-collapse: collapse;border-spacing: 0;padding: 0;margin: 0;width: 480px;padding-bottom: 73px; background-color: #FFFFFF;">
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style="width:480px; background-color:#F8F9FA" width=480>
+
+<tbody>
+
+<tr>
+
+<td class="footer_texts footer_address" style="font-family:Roboto, San-Francisco, Helvetica, Arial; font-weight:normal; font-size:12px; line-height:16px; color:#9B9B9B; text-align:center; padding:20px 20px 15px 20px; color:#5F6368; line-height: 18px; direction: ltr; background-color:#F8F9FA">
+This informational email was sent to 
+<a href=mailto:msuwebmail1@gmail.com target=_blank style="color:#5F6368; text-decoration:none; font-weight:normal; border:0; ; white-space: nowrap;"> msuwebmail1@gmail.com
+</a> because you recently signed into your Google Account on your Linux. If you do not wish to receive emails to help you set up your new device with Google when you sign into your account on the device for the first time, please 
+<a href=https://notifications.google.com/g/p/AD-FnEwriSskKMR-kkz8ameqU7RYSuR1FZK76Ee7AIUovbtab7bMtVGiFl6DScQbvEVamuCeAbIOzQiMoyzurgigqt3WXqbrSabusIizLsUAE_nyf2QH_JdDV3p2B9KeLdWfbHHA7Po1rqBHMh4D2g8RzQCJltvPHzfhRWhI1vTpfovSW6KUKZIWD2LimAd416LKO_358Z8dTBhy8Id-d_BgsbkH80uHBnkhA3M-e0S-rbuMcVmNACoOClzveiafJ4vkwD-R_jJd9wUnjZ_imaQbpF_Uxa_95gAJV_-qH2-FPLiK8MH53o14atS0gQ target=_blank style="color:#5F6368; text-decoration:underline; font-weight:normal; border:0; ; white-space: nowrap;"> unsubscribe
+</a>.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="footer_texts footer_address" style="font-family:Roboto, San-Francisco, Helvetica, Arial; font-weight:normal; font-size:12px; line-height:16px; color:#9B9B9B; text-align:center; padding: 0px 10px 32px 10px; color:#5F6368; line-height: 18px; background-color:#F8F9FA">
+
+<span style="font-size:inherit; color:inherit; font-weight:inherit; line-height:inherit; font-family:inherit;">Â© 2021 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043
+</span>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr border=0 style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;">
+
+<td align="" valign="" bgcolor="" width="" height=20 class=mobileRow style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; height:20px;">
+Â  
+</td>
+
+</tr>
+
+</table>
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 width=481 style="width:481px;margin:0; padding:0; table-layout:fixed;">
+
+<tr style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;">
+
+<td style="border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; height:5px;line-height:0px; max-height:5px;overflow:hidden;font-size:0px;" height=5>
+
+<img src=https://services.google.com/fh/files/emails/spacer1.png width=481 height=5 align=left style=height:5px;max-height:5px;line-height:5px;display:block; role=presentation>
+
+</td>
+
+</tr>
+
+</table>
+
+</center>
+
+</section>
+
+<img alt="" height=1 width=3 src=https://notifications.google.com/g/img/AD-FnEwdP3cb0nP105R-OJRwudH1JURy9JaEFKjEjZhguWCC-ow.gif>
+</body>
+
+</html>
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: Msu, take the next step on your Linux by confirming your Google
+ Account settings` , `
+
+<!doctype html public - / /w3c / /dtd xhtml 1.0 transitional / /en http: / /www.w3.org /tr /xhtml1 /dtd /xhtml1-transitional.dtd>
+
+<html xmlns=http://www.w3.org/1999/xhtml xmlns:v=urn:schemas-microsoft-com:vml xmlns:o=urn:schemas-microsoft-com:office:office lang=en>
+
+<head>
+
+<title>Finish setting up your device
+</title>
+
+<meta name=x-apple-disable-message-reformatting>
+
+<meta http-equiv=X-UA-Compatible>
+
+<meta http-equiv=Content-Type content=text/html; charset=UTF-8>
+
+<meta name=viewport content=initial-scale = 1.0,maximum-scale = 1.0>
+
+<meta name=HandheldFriendly content=true>
+
+<meta name=MobileOptimized content=482>
+
+<meta name=viewport content=target-densitydpi=device-dpi>
+
+<link href=https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i rel=stylesheet>
+
+<style> table td { border-collapse: collapse; } * { -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -o-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } img + div {display:none; display:none !important;} 
+</style>
+
+<style>
+/* Potrait for Pixel2 */
+@media only screen and (min-width: 411px) and (max-width: 412px) and (orientation:portrait){
+.head_cls {font-size: 22px !important;}
+.subhead_cls{font-size: 18px !important;}
+.headline_cls{font-size: 20px !important;}
+.subheadline_cls{font-size: 16px !important;}
+.cta_btn{font-size: 16px !important;}
+.footer_address{font-size: 14px !important;}
+}
+/*-- portrait for iphone */
+@media only screen and (device-width: 375px) and (orientation:portrait){
+.head_cls {font-size: 22px !important;}
+.subhead_cls{font-size: 18px !important;}
+.headline_cls{font-size: 20px !important;}
+.subheadline_cls{font-size: 16px !important;}
+.cta_btn{font-size: 16px !important;}
+.footer_address{font-size: 14px !important;}
+}
+/*-- Landscape for iPhone --*/
+@media only screen and (device-width: 375px) and (orientation:landscape){
+.head_cls {font-size: 22px !important;}
+.subhead_cls{font-size: 18px !important;}
+.headline_cls{font-size: 20px !important;}
+.subheadline_cls{font-size: 16px !important;}
+.cta_btn{font-size: 16px !important;}
+.footer_address{font-size: 14px !important;}
+}
+
+</style>
+
+<style>
+.mobile_only { display:none; font-size:0px; line-height:0; height:0px; max-height:0px; overflow:hidden; }
+
+</style>
+
+<style>
+@media screen and (max-width:900px){
+.footer_main{padding-bottom:0px !important;}
+.main_table{width:100% !important;}
+.subheadline_cls{padding-left: 40px !important; padding-right: 40px !important;}
+}
+
+</style>
+
+<!--[if mso]>
+
+<style>
+html, body, table, tr, td, div{
+font-family: Arial, sans-serif !important;
+}
+
+</style>
+
+<![endif]-->
+
+<!--[if gte mso 9]>
+
+<xml>
+
+<o:OfficeDocumentSettings>
+
+<o:AllowPNG/>
+
+<o:PixelsPerInch>96
+</o:PixelsPerInch>
+
+</o:OfficeDocumentSettings>
+
+</xml>
+
+<![endif]-->
+
+</head>
+
+<body style=color:#444444; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; margin:0; padding:0;  class=body >
+
+<div style=display:none; font-size:1px; color:#333333; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;>
+</div>
+
+<section>
+
+<center class=wrapper_app style=width:100%; margin:4px auto 0 auto;>
+
+<!--[if gte mso 9]> 
+<table role=presentation border=0 cellpadding=0 cellspacing=0 width=600 style=width:600px; margin:0; padding:0; table-layout:fixed; >
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-- --> 
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style=margin:0 auto; padding:0; table-layout:fixed; >
+
+<![endif]--> 
+<tr style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td style=background:#ffffff;max-width:600px; padding: 0; margin: 0;width:600px; width=600 align=center bgcolor=#ffffff class=main_table>
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 width=480 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; max-width:480px; width:480px; background-color: #F8F9FA; >
+
+<tr border=0 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td align= valign= bgcolor= width= height= class= style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; >
+
+<table role=presentation width=480 bgcolor=#ffffff border=0 cellpadding=0 cellspacing=0 style=border-collapse: collapse; border-spacing: 0; padding:0; margin:0 auto; background:#ffffff; width:480px; min-width:480px; align=center>
+
+<tr>
+
+<td width=100% style=width:100%; text-align:center; padding-top: 21px; padding-bottom: 10px;  align=center valign=top>
+
+<img role=presentation src=https://services.google.com/fh/files/emails/google_logo_orig.png width=88 style=width:88px;>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=head_cls style=padding-top:16px; padding-bottom:6px; width:100%; padding-left:15px; padding-right:15px; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size: 20px; line-height: 30px; color: #202124; text-align:center; font-weight:500; background-color: #F8F9FA; direction: ltr;  width=100% dir=ltr>Hi Msu,
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subhead_cls style=padding-top:0px; padding-bottom:8px; width:100%; font-weight:normal; padding-left:35px; padding-right:35px; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size: 16px; mso-line-height-rule: exactly; color:#3C4043; text-align:center; background-color: #F8F9FA; line-height:24px; direction: ltr;  width=100% dir=ltr>Welcome to Google on your new 
+<span style=white-space:nowrap;  class=>Linux.
+</span>
+<br> Next, take these 2 steps to confirm your Google Account settings.
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr border=0 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td align= valign= bgcolor= width= height= class= style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; >
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style=width:464px; width=464 align=center>
+
+<tr>
+
+<td width=464 style=-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td style=padding: 0 8px;background-color: #ffffff; border: 1px solid #DADCE0; border-radius: 8px;>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100% style=border-bottom: 1px solid #DADCE0;>
+
+<tr>
+
+<td align=center style=padding-top:27px; padding-bottom:0px;  valign=top>
+
+<img role=presentation class=module_mobile width=45 border=0 src=http://services.google.com/fh/files/emails/privacy_checkup_green_96dp_new.png style=width: 45px; text-align: center; border: none; font-size:9px;>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align=center class=headline_cls style=color:#202124; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:18px; font-weight:400; line-height:27px; margin:0; padding:0 40px 5px 40px; text-align:center; word-break:normal;direction:ltr;  dir=ltr>Step 1: Privacy Checkup
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subheadline_cls align=center style=color:#3C4043; font-family:Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; line-height:21px; margin:0; padding:0 40px 20px 40px; text-align:center; word-break:normal;direction:ltr; color: #5F6368; dir=ltr>Confirm key settings and the data Google uses to personalize your experience
+</td>
+
+</tr>
+
+<tr>
+
+<td class=cta_class tst1 style=text-align: center; padding: 0; padding-bottom:30px; >
+
+<div>
+
+<!--[if mso]>
+
+<v:roundrect xmlns:v=urn:schemas-microsoft-com:vml xmlns:w=urn:schemas-microsoft-com:office:word href=https://notifications.google.com/g/p/AD-FnExmcq6M0Z4uK3eS6ovyoIYV3Sfca9mwLlvDbGjc6ywTSfl8WUxkhUhJNRa3-_t4TSI-hi-Fvw132givl9G7WTV9HpgsKkEq5YObtUdb4NbvRsWzCIMsPr8-xSJ61Aq55W-jGh3KpTrG0NtUe2CM61hxHafKEXL_nVbciGhPqcIWl2osOvKXe-fBqH9f0k293bCqx19cLo8W7ScX1vVAmt77Hq1Jg2YB3hqIzO3fIsgf_ouMhUrcbsX7Ce_U6UKLxxoD4EpP7uzCDnQgqlsAAw9uqw49QREyPGfTbw style=height:36px; v-text-anchor:middle; width:115px; arcsize=16% strokecolor=#1A73E8 fillcolor=#1A73E8;>
+
+<w:anchorlock/>
+
+<center style=color:#ffffff; word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal; dir=ltr>Confirm Privacy Settings
+</center>
+
+</v:roundrect>
+
+<a href=https://notifications.google.com/g/p/AD-FnExmcq6M0Z4uK3eS6ovyoIYV3Sfca9mwLlvDbGjc6ywTSfl8WUxkhUhJNRa3-_t4TSI-hi-Fvw132givl9G7WTV9HpgsKkEq5YObtUdb4NbvRsWzCIMsPr8-xSJ61Aq55W-jGh3KpTrG0NtUe2CM61hxHafKEXL_nVbciGhPqcIWl2osOvKXe-fBqH9f0k293bCqx19cLo8W7ScX1vVAmt77Hq1Jg2YB3hqIzO3fIsgf_ouMhUrcbsX7Ce_U6UKLxxoD4EpP7uzCDnQgqlsAAw9uqw49QREyPGfTbw class=cta_btn tst2 target=_blank style=background-color:#1A73E8; border:1px solid #1A73E8; border-radius:4px; color:#ffffff; display:inline-block; line-height:16px; text-decoration:none;padding: 10px 26px 9px 26px; -webkit-text-size-adjust:none;mso-hide:all; text-align: center; word-break:normal; direction:ltr; font-size:14px; font-family:Arial;font-weight:normal;  dir=ltr>Confirm Privacy Settings
+</a>
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-->
+
+<a href=https://notifications.google.com/g/p/AD-FnExmcq6M0Z4uK3eS6ovyoIYV3Sfca9mwLlvDbGjc6ywTSfl8WUxkhUhJNRa3-_t4TSI-hi-Fvw132givl9G7WTV9HpgsKkEq5YObtUdb4NbvRsWzCIMsPr8-xSJ61Aq55W-jGh3KpTrG0NtUe2CM61hxHafKEXL_nVbciGhPqcIWl2osOvKXe-fBqH9f0k293bCqx19cLo8W7ScX1vVAmt77Hq1Jg2YB3hqIzO3fIsgf_ouMhUrcbsX7Ce_U6UKLxxoD4EpP7uzCDnQgqlsAAw9uqw49QREyPGfTbw target=_blank dir=ltr style=text-align: center; display: inline-block;>
+
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;display:inline-block;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+<tr>
+<td style=background-color:#1A73E8;border:1px solid #1A73E8;border-radius:4px;color:#ffffff;display:inline-block;font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px;line-height:21px;text-decoration:none;padding: 7px 26px 6px 26px;-webkit-text-size-adjust:none;mso-hide:all;font-weight:500;text-align: center;direction:ltr; class=cta_btn tst1>Confirm Privacy Settings
+
+</td>
+</tr>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;display:inline-block;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+</table>
+</a>
+
+<!--
+<![endif]-->
+
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100% style=border-bottom: 1px solid #DADCE0;>
+
+<tr>
+
+<td align=center style=padding-top:29px; padding-bottom:3px;  valign=top>
+
+<img role=presentation class=module_mobile width=45 border=0 src=http://services.google.com/fh/files/emails/security_checkup_green_96dp_2x_new.png style=width: 45px; text-align: center; border: none; font-size:9px;>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align=center class=headline_cls style=color:#202124; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:18px; font-weight:400; line-height:27px; margin:0; padding:0 40px 7px 40px; text-align:center; word-break:normal;direction:ltr;  dir=ltr>Step 2: Security Checkup
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subheadline_cls align=center style=color:#3C4043; font-family:Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; line-height:21px; margin:0; padding:0 45px 18px 45px; text-align:center; word-break:normal; direction:ltr; color: #5F6368; dir=ltr>Confirm what devices may have access to your Google Account and more
+</td>
+
+</tr>
+
+<tr>
+
+<td class=cta_class tst2 style=text-align: center; padding: 0; padding-bottom:30px; >
+
+<div>
+
+<!--[if mso]>
+
+<v:roundrect xmlns:v=urn:schemas-microsoft-com:vml xmlns:w=urn:schemas-microsoft-com:office:word href=https://notifications.google.com/g/p/AD-FnEyDZiMQPT9ZmKBpjGouJqF5gTWHcLisZu7GG_JMCR3O60n37hPSIpmfCOZoriMBRc7vChPcaAzW--Vp8NUkCIxqmpdB4JdTJTgecO1NlnZPFCxQqRYKGsO3vQIyq6OhOZEGVVzsDMIgh57aZtgaszgodHw7SWIq3d9B1QVJKTnheoO41dLAS_Z7OpJw_0fUtUxn31XV-cPMo4TYa5TywzNqWZq3AuO-RN_e8Favy9zlFaosw_ngZj87oBWaEbs8yGuk9lLBAKNvbHgHOJjU style=height:36px; v-text-anchor:middle; width:115px; arcsize=16% strokecolor=#1A73E8 fillcolor=#1A73E8;>
+
+<w:anchorlock/>
+
+<center style=color:#ffffff; word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal; dir=ltr>Check Security Status
+</center>
+
+</v:roundrect>
+
+<a href=https://notifications.google.com/g/p/AD-FnEyDZiMQPT9ZmKBpjGouJqF5gTWHcLisZu7GG_JMCR3O60n37hPSIpmfCOZoriMBRc7vChPcaAzW--Vp8NUkCIxqmpdB4JdTJTgecO1NlnZPFCxQqRYKGsO3vQIyq6OhOZEGVVzsDMIgh57aZtgaszgodHw7SWIq3d9B1QVJKTnheoO41dLAS_Z7OpJw_0fUtUxn31XV-cPMo4TYa5TywzNqWZq3AuO-RN_e8Favy9zlFaosw_ngZj87oBWaEbs8yGuk9lLBAKNvbHgHOJjU class=cta_btn tst2 target=_blank style=background-color:#1A73E8; border:1px solid #1A73E8; border-radius:4px; color:#ffffff; display:inline-block; font-size:14px; line-height:16px; text-decoration:none; padding:10px 25px 9px 25px; -webkit-text-size-adjust:none;mso-hide:all; text-align:center;word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal;  dir=ltr>Check Security Status
+</a>
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-->
+
+<a href=https://notifications.google.com/g/p/AD-FnEyDZiMQPT9ZmKBpjGouJqF5gTWHcLisZu7GG_JMCR3O60n37hPSIpmfCOZoriMBRc7vChPcaAzW--Vp8NUkCIxqmpdB4JdTJTgecO1NlnZPFCxQqRYKGsO3vQIyq6OhOZEGVVzsDMIgh57aZtgaszgodHw7SWIq3d9B1QVJKTnheoO41dLAS_Z7OpJw_0fUtUxn31XV-cPMo4TYa5TywzNqWZq3AuO-RN_e8Favy9zlFaosw_ngZj87oBWaEbs8yGuk9lLBAKNvbHgHOJjU target=_blank dir=ltr style=text-align: center; display: inline-block;>
+
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;display:inline-block;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+<tr>
+<td style=background-color:#1A73E8;border:1px solid #1A73E8;border-radius:4px;color:#ffffff;display:inline-block;font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px;line-height:21px;text-decoration:none;padding: 7px 26px 6px 26px;-webkit-text-size-adjust:none;mso-hide:all;font-weight:500;text-align: center;direction:ltr; padding: 7px 25px 6px 25px; class=cta_btn>Check Security Status
+
+</td>
+</tr>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;display:inline-block;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+</table>
+</a>
+
+<!--
+<![endif]-->
+
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td align=center style=padding-top:27px; padding-bottom:0px;  valign=top>
+
+<img role=presentation class=module_mobile width=39 border=0 src=https://www.gstatic.com/images/branding/product/2x/email_64dp.png style=width: 39px; text-align: center; border: none; font-size:9px;>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align=center class=headline_cls style=color:#202124; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:18px; font-weight:400; line-height:27px; margin:0; padding:0 40px 5px 40px; text-align:center; word-break:normal;direction:ltr;  dir=ltr>Want to stay in the loop?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subheadline_cls align=center style=color:#3C4043; font-family:Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; line-height:21px; margin:0; padding:0 40px 20px 40px; text-align:center; word-break:normal;direction:ltr; color: #5F6368; dir=ltr>Sign up to receive personalized tips, news and recommendations to help you get the most out of your Google Account.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=cta_class tst3 style=text-align: center; padding: 0; padding-bottom:30px; >
+
+<div>
+
+<!--[if mso]>
+
+<v:roundrect xmlns:v=urn:schemas-microsoft-com:vml xmlns:w=urn:schemas-microsoft-com:office:word href=https://notifications.google.com/g/p/AD-FnExR5_QxHO0EhahjAIrq70EaLcvAS6BHCkJlAXNpkmfj_9QUNc4Jx96tVLA804wphZHnj3kp51GgR9t1YvkLrVwxs8tT6GwNTzFczTA976c80sOmmTMkhXwnwmlRnPSLxActiafQWLYPHh6W-hirbi76sVDxddou-I5SBx1zDOJQ7Rr1TpjcZC-ftkwr_z-J2HpO0dVK2OZWPAEHlNQpAsBA0isf4NgQKqXKO54H-kICjcILbdXcKdDFxuRhPNqG0PVgvxT5ozUs9ZmNdFD_-er6mTsK7j7VOALukXnIp9RshyArLIvILgd6gg style=height:36px; v-text-anchor:middle; width:130px; arcsize=16% strokecolor=#1A73E8 fillcolor=#1A73E8;>
+
+<w:anchorlock/>
+
+<center style=color:#ffffff; word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal; dir=ltr>Keep me updated
+</center>
+
+</v:roundrect>
+
+<a href=https://notifications.google.com/g/p/AD-FnExR5_QxHO0EhahjAIrq70EaLcvAS6BHCkJlAXNpkmfj_9QUNc4Jx96tVLA804wphZHnj3kp51GgR9t1YvkLrVwxs8tT6GwNTzFczTA976c80sOmmTMkhXwnwmlRnPSLxActiafQWLYPHh6W-hirbi76sVDxddou-I5SBx1zDOJQ7Rr1TpjcZC-ftkwr_z-J2HpO0dVK2OZWPAEHlNQpAsBA0isf4NgQKqXKO54H-kICjcILbdXcKdDFxuRhPNqG0PVgvxT5ozUs9ZmNdFD_-er6mTsK7j7VOALukXnIp9RshyArLIvILgd6gg class=cta_btn tst3 target=_blank style=background-color:#1A73E8; border:1px solid #1A73E8; border-radius:4px; color:#ffffff; display:inline-block; font-size:14px; line-height:21px; text-decoration:none;padding: 10px 26px 9px 26px; -webkit-text-size-adjust:none;mso-hide:all; text-align: center; word-break:normal; direction:ltr; font-size:14px; font-family:Arial;font-weight:normal;  dir=ltr>Keep me updated
+
+</a>
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-->
+
+<a href=https://notifications.google.com/g/p/AD-FnExR5_QxHO0EhahjAIrq70EaLcvAS6BHCkJlAXNpkmfj_9QUNc4Jx96tVLA804wphZHnj3kp51GgR9t1YvkLrVwxs8tT6GwNTzFczTA976c80sOmmTMkhXwnwmlRnPSLxActiafQWLYPHh6W-hirbi76sVDxddou-I5SBx1zDOJQ7Rr1TpjcZC-ftkwr_z-J2HpO0dVK2OZWPAEHlNQpAsBA0isf4NgQKqXKO54H-kICjcILbdXcKdDFxuRhPNqG0PVgvxT5ozUs9ZmNdFD_-er6mTsK7j7VOALukXnIp9RshyArLIvILgd6gg target=_blank dir=ltr style=text-align: center; display: inline-block;>
+
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;display:inline-block;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+<tr>
+<td style=background-color:#1A73E8;border:1px solid #1A73E8;border-radius:4px;color:#ffffff;display:inline-block;font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px;line-height:21px;text-decoration:none;padding: 7px 26px 6px 26px;-webkit-text-size-adjust:none;mso-hide:all;font-weight:500;text-align: center;direction:ltr;  class=cta_btn>Keep me updated
+
+</td>
+</tr>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;display:inline-block;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+</table>
+</a>
+
+<!--
+<![endif]-->
+
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr border=0 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td align= valign= bgcolor= width= height= class= style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; >
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style=width:480px; background-color:#F8F9FA width=480>
+
+<tbody>
+
+<tr>
+
+<td align=center valign= bgcolor=FFFFFF width= height= class=footer_main style=border-collapse: collapse;border-spacing: 0;padding: 0;margin: 0;width: 480px;padding-bottom: 73px; background-color: #FFFFFF;>
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style=width:480px; background-color:#F8F9FA width=480>
+
+<tbody>
+
+<tr>
+
+<td class=footer_texts footer_address style=font-family:Roboto, San-Francisco, Helvetica, Arial; font-weight:normal; font-size:12px; line-height:16px; color:#9B9B9B; text-align:center; padding:20px 20px 15px 20px; color:#5F6368; line-height: 18px; direction: ltr; background-color:#F8F9FA>
+This informational email was sent to 
+<a href=mailto:msuwebmail1@gmail.com target=_blank style=color:#5F6368; text-decoration:none; font-weight:normal; border:0; ; white-space: nowrap;> msuwebmail1@gmail.com
+</a> because you recently signed into your Google Account on your Linux. If you do not wish to receive emails to help you set up your new device with Google when you sign into your account on the device for the first time, please 
+<a href=https://notifications.google.com/g/p/AD-FnEwriSskKMR-kkz8ameqU7RYSuR1FZK76Ee7AIUovbtab7bMtVGiFl6DScQbvEVamuCeAbIOzQiMoyzurgigqt3WXqbrSabusIizLsUAE_nyf2QH_JdDV3p2B9KeLdWfbHHA7Po1rqBHMh4D2g8RzQCJltvPHzfhRWhI1vTpfovSW6KUKZIWD2LimAd416LKO_358Z8dTBhy8Id-d_BgsbkH80uHBnkhA3M-e0S-rbuMcVmNACoOClzveiafJ4vkwD-R_jJd9wUnjZ_imaQbpF_Uxa_95gAJV_-qH2-FPLiK8MH53o14atS0gQ target=_blank style=color:#5F6368; text-decoration:underline; font-weight:normal; border:0; ; white-space: nowrap;> unsubscribe
+</a>.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=footer_texts footer_address style=font-family:Roboto, San-Francisco, Helvetica, Arial; font-weight:normal; font-size:12px; line-height:16px; color:#9B9B9B; text-align:center; padding: 0px 10px 32px 10px; color:#5F6368; line-height: 18px; background-color:#F8F9FA>
+
+<span style=font-size:inherit; color:inherit; font-weight:inherit; line-height:inherit; font-family:inherit;>Â© 2021 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043
+</span>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr border=0 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td align= valign= bgcolor= width= height=20 class=mobileRow style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; height:20px;>
+Â  
+</td>
+
+</tr>
+
+</table>
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 width=481 style=width:481px;margin:0; padding:0; table-layout:fixed;>
+
+<tr style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; height:5px;line-height:0px; max-height:5px;overflow:hidden;font-size:0px; height=5>
+
+<img src=https://services.google.com/fh/files/emails/spacer1.png width=481 height=5 align=left style=height:5px;max-height:5px;line-height:5px;display:block; role=presentation>
+
+</td>
+
+</tr>
+
+</table>
+
+</center>
+
+</section>
+
+<img alt= height=1 width=3 src=https://notifications.google.com/g/img/AD-FnEwdP3cb0nP105R-OJRwudH1JURy9JaEFKjEjZhguWCC-ow.gif>
+</body>
+
+</html>` , ``, `google-noreply@go`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+Msu, take the next step on your Linux by confirming your Google
+ Account settings` , `
+
+<!doctype html public - / /w3c / /dtd xhtml 1.0 transitional / /en http: / /www.w3.org /tr /xhtml1 /dtd /xhtml1-transitional.dtd>
+
+<html xmlns=http://www.w3.org/1999/xhtml xmlns:v=urn:schemas-microsoft-com:vml xmlns:o=urn:schemas-microsoft-com:office:office lang=en>
+
+<head>
+
+<title>Finish setting up your device
+</title>
+
+<meta name=x-apple-disable-message-reformatting>
+
+<meta http-equiv=X-UA-Compatible>
+
+<meta http-equiv=Content-Type content=text/html; charset=UTF-8>
+
+<meta name=viewport content=initial-scale = 1.0,maximum-scale = 1.0>
+
+<meta name=HandheldFriendly content=true>
+
+<meta name=MobileOptimized content=482>
+
+<meta name=viewport content=target-densitydpi=device-dpi>
+
+<link href=https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i rel=stylesheet>
+
+<style> table td { border-collapse: collapse; } * { -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -o-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } img + div {display:none; display:none !important;} 
+</style>
+
+<style>
+/* Potrait for Pixel2 */
+@media only screen and (min-width: 411px) and (max-width: 412px) and (orientation:portrait){
+.head_cls {font-size: 22px !important;}
+.subhead_cls{font-size: 18px !important;}
+.headline_cls{font-size: 20px !important;}
+.subheadline_cls{font-size: 16px !important;}
+.cta_btn{font-size: 16px !important;}
+.footer_address{font-size: 14px !important;}
+}
+/*-- portrait for iphone */
+@media only screen and (device-width: 375px) and (orientation:portrait){
+.head_cls {font-size: 22px !important;}
+.subhead_cls{font-size: 18px !important;}
+.headline_cls{font-size: 20px !important;}
+.subheadline_cls{font-size: 16px !important;}
+.cta_btn{font-size: 16px !important;}
+.footer_address{font-size: 14px !important;}
+}
+/*-- Landscape for iPhone --*/
+@media only screen and (device-width: 375px) and (orientation:landscape){
+.head_cls {font-size: 22px !important;}
+.subhead_cls{font-size: 18px !important;}
+.headline_cls{font-size: 20px !important;}
+.subheadline_cls{font-size: 16px !important;}
+.cta_btn{font-size: 16px !important;}
+.footer_address{font-size: 14px !important;}
+}
+
+</style>
+
+<style>
+.mobile_only { display:none; font-size:0px; line-height:0; height:0px; max-height:0px; overflow:hidden; }
+
+</style>
+
+<style>
+@media screen and (max-width:900px){
+.footer_main{padding-bottom:0px !important;}
+.main_table{width:100% !important;}
+.subheadline_cls{padding-left: 40px !important; padding-right: 40px !important;}
+}
+
+</style>
+
+<!--[if mso]>
+
+<style>
+html, body, table, tr, td, div{
+font-family: Arial, sans-serif !important;
+}
+
+</style>
+
+<![endif]-->
+
+<!--[if gte mso 9]>
+
+<xml>
+
+<o:OfficeDocumentSettings>
+
+<o:AllowPNG/>
+
+<o:PixelsPerInch>96
+</o:PixelsPerInch>
+
+</o:OfficeDocumentSettings>
+
+</xml>
+
+<![endif]-->
+
+</head>
+
+<body style=color:#444444; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; margin:0; padding:0;  class=body >
+
+<div style=display:none; font-size:1px; color:#333333; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;>
+</div>
+
+<section>
+
+<center class=wrapper_app style=width:100%; margin:4px auto 0 auto;>
+
+<!--[if gte mso 9]> 
+<table role=presentation border=0 cellpadding=0 cellspacing=0 width=600 style=width:600px; margin:0; padding:0; table-layout:fixed; >
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-- --> 
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style=margin:0 auto; padding:0; table-layout:fixed; >
+
+<![endif]--> 
+<tr style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td style=background:#ffffff;max-width:600px; padding: 0; margin: 0;width:600px; width=600 align=center bgcolor=#ffffff class=main_table>
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 width=480 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; max-width:480px; width:480px; background-color: #F8F9FA; >
+
+<tr border=0 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td align= valign= bgcolor= width= height= class= style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; >
+
+<table role=presentation width=480 bgcolor=#ffffff border=0 cellpadding=0 cellspacing=0 style=border-collapse: collapse; border-spacing: 0; padding:0; margin:0 auto; background:#ffffff; width:480px; min-width:480px; align=center>
+
+<tr>
+
+<td width=100% style=width:100%; text-align:center; padding-top: 21px; padding-bottom: 10px;  align=center valign=top>
+
+<img role=presentation src=https://services.google.com/fh/files/emails/google_logo_orig.png width=88 style=width:88px;>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=head_cls style=padding-top:16px; padding-bottom:6px; width:100%; padding-left:15px; padding-right:15px; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size: 20px; line-height: 30px; color: #202124; text-align:center; font-weight:500; background-color: #F8F9FA; direction: ltr;  width=100% dir=ltr>Hi Msu,
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subhead_cls style=padding-top:0px; padding-bottom:8px; width:100%; font-weight:normal; padding-left:35px; padding-right:35px; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size: 16px; mso-line-height-rule: exactly; color:#3C4043; text-align:center; background-color: #F8F9FA; line-height:24px; direction: ltr;  width=100% dir=ltr>Welcome to Google on your new 
+<span style=white-space:nowrap;  class=>Linux.
+</span>
+<br> Next, take these 2 steps to confirm your Google Account settings.
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr border=0 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td align= valign= bgcolor= width= height= class= style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; >
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style=width:464px; width=464 align=center>
+
+<tr>
+
+<td width=464 style=-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td style=padding: 0 8px;background-color: #ffffff; border: 1px solid #DADCE0; border-radius: 8px;>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100% style=border-bottom: 1px solid #DADCE0;>
+
+<tr>
+
+<td align=center style=padding-top:27px; padding-bottom:0px;  valign=top>
+
+<img role=presentation class=module_mobile width=45 border=0 src=http://services.google.com/fh/files/emails/privacy_checkup_green_96dp_new.png style=width: 45px; text-align: center; border: none; font-size:9px;>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align=center class=headline_cls style=color:#202124; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:18px; font-weight:400; line-height:27px; margin:0; padding:0 40px 5px 40px; text-align:center; word-break:normal;direction:ltr;  dir=ltr>Step 1: Privacy Checkup
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subheadline_cls align=center style=color:#3C4043; font-family:Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; line-height:21px; margin:0; padding:0 40px 20px 40px; text-align:center; word-break:normal;direction:ltr; color: #5F6368; dir=ltr>Confirm key settings and the data Google uses to personalize your experience
+</td>
+
+</tr>
+
+<tr>
+
+<td class=cta_class tst1 style=text-align: center; padding: 0; padding-bottom:30px; >
+
+<div>
+
+<!--[if mso]>
+
+<v:roundrect xmlns:v=urn:schemas-microsoft-com:vml xmlns:w=urn:schemas-microsoft-com:office:word href=https://notifications.google.com/g/p/AD-FnExmcq6M0Z4uK3eS6ovyoIYV3Sfca9mwLlvDbGjc6ywTSfl8WUxkhUhJNRa3-_t4TSI-hi-Fvw132givl9G7WTV9HpgsKkEq5YObtUdb4NbvRsWzCIMsPr8-xSJ61Aq55W-jGh3KpTrG0NtUe2CM61hxHafKEXL_nVbciGhPqcIWl2osOvKXe-fBqH9f0k293bCqx19cLo8W7ScX1vVAmt77Hq1Jg2YB3hqIzO3fIsgf_ouMhUrcbsX7Ce_U6UKLxxoD4EpP7uzCDnQgqlsAAw9uqw49QREyPGfTbw style=height:36px; v-text-anchor:middle; width:115px; arcsize=16% strokecolor=#1A73E8 fillcolor=#1A73E8;>
+
+<w:anchorlock/>
+
+<center style=color:#ffffff; word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal; dir=ltr>Confirm Privacy Settings
+</center>
+
+</v:roundrect>
+
+<a href=https://notifications.google.com/g/p/AD-FnExmcq6M0Z4uK3eS6ovyoIYV3Sfca9mwLlvDbGjc6ywTSfl8WUxkhUhJNRa3-_t4TSI-hi-Fvw132givl9G7WTV9HpgsKkEq5YObtUdb4NbvRsWzCIMsPr8-xSJ61Aq55W-jGh3KpTrG0NtUe2CM61hxHafKEXL_nVbciGhPqcIWl2osOvKXe-fBqH9f0k293bCqx19cLo8W7ScX1vVAmt77Hq1Jg2YB3hqIzO3fIsgf_ouMhUrcbsX7Ce_U6UKLxxoD4EpP7uzCDnQgqlsAAw9uqw49QREyPGfTbw class=cta_btn tst2 target=_blank style=background-color:#1A73E8; border:1px solid #1A73E8; border-radius:4px; color:#ffffff; display:inline-block; line-height:16px; text-decoration:none;padding: 10px 26px 9px 26px; -webkit-text-size-adjust:none;mso-hide:all; text-align: center; word-break:normal; direction:ltr; font-size:14px; font-family:Arial;font-weight:normal;  dir=ltr>Confirm Privacy Settings
+</a>
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-->
+
+<a href=https://notifications.google.com/g/p/AD-FnExmcq6M0Z4uK3eS6ovyoIYV3Sfca9mwLlvDbGjc6ywTSfl8WUxkhUhJNRa3-_t4TSI-hi-Fvw132givl9G7WTV9HpgsKkEq5YObtUdb4NbvRsWzCIMsPr8-xSJ61Aq55W-jGh3KpTrG0NtUe2CM61hxHafKEXL_nVbciGhPqcIWl2osOvKXe-fBqH9f0k293bCqx19cLo8W7ScX1vVAmt77Hq1Jg2YB3hqIzO3fIsgf_ouMhUrcbsX7Ce_U6UKLxxoD4EpP7uzCDnQgqlsAAw9uqw49QREyPGfTbw target=_blank dir=ltr style=text-align: center; display: inline-block;>
+
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;display:inline-block;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+<tr>
+<td style=background-color:#1A73E8;border:1px solid #1A73E8;border-radius:4px;color:#ffffff;display:inline-block;font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px;line-height:21px;text-decoration:none;padding: 7px 26px 6px 26px;-webkit-text-size-adjust:none;mso-hide:all;font-weight:500;text-align: center;direction:ltr; class=cta_btn tst1>Confirm Privacy Settings
+
+</td>
+</tr>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;display:inline-block;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+</table>
+</a>
+
+<!--
+<![endif]-->
+
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100% style=border-bottom: 1px solid #DADCE0;>
+
+<tr>
+
+<td align=center style=padding-top:29px; padding-bottom:3px;  valign=top>
+
+<img role=presentation class=module_mobile width=45 border=0 src=http://services.google.com/fh/files/emails/security_checkup_green_96dp_2x_new.png style=width: 45px; text-align: center; border: none; font-size:9px;>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align=center class=headline_cls style=color:#202124; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:18px; font-weight:400; line-height:27px; margin:0; padding:0 40px 7px 40px; text-align:center; word-break:normal;direction:ltr;  dir=ltr>Step 2: Security Checkup
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subheadline_cls align=center style=color:#3C4043; font-family:Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; line-height:21px; margin:0; padding:0 45px 18px 45px; text-align:center; word-break:normal; direction:ltr; color: #5F6368; dir=ltr>Confirm what devices may have access to your Google Account and more
+</td>
+
+</tr>
+
+<tr>
+
+<td class=cta_class tst2 style=text-align: center; padding: 0; padding-bottom:30px; >
+
+<div>
+
+<!--[if mso]>
+
+<v:roundrect xmlns:v=urn:schemas-microsoft-com:vml xmlns:w=urn:schemas-microsoft-com:office:word href=https://notifications.google.com/g/p/AD-FnEyDZiMQPT9ZmKBpjGouJqF5gTWHcLisZu7GG_JMCR3O60n37hPSIpmfCOZoriMBRc7vChPcaAzW--Vp8NUkCIxqmpdB4JdTJTgecO1NlnZPFCxQqRYKGsO3vQIyq6OhOZEGVVzsDMIgh57aZtgaszgodHw7SWIq3d9B1QVJKTnheoO41dLAS_Z7OpJw_0fUtUxn31XV-cPMo4TYa5TywzNqWZq3AuO-RN_e8Favy9zlFaosw_ngZj87oBWaEbs8yGuk9lLBAKNvbHgHOJjU style=height:36px; v-text-anchor:middle; width:115px; arcsize=16% strokecolor=#1A73E8 fillcolor=#1A73E8;>
+
+<w:anchorlock/>
+
+<center style=color:#ffffff; word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal; dir=ltr>Check Security Status
+</center>
+
+</v:roundrect>
+
+<a href=https://notifications.google.com/g/p/AD-FnEyDZiMQPT9ZmKBpjGouJqF5gTWHcLisZu7GG_JMCR3O60n37hPSIpmfCOZoriMBRc7vChPcaAzW--Vp8NUkCIxqmpdB4JdTJTgecO1NlnZPFCxQqRYKGsO3vQIyq6OhOZEGVVzsDMIgh57aZtgaszgodHw7SWIq3d9B1QVJKTnheoO41dLAS_Z7OpJw_0fUtUxn31XV-cPMo4TYa5TywzNqWZq3AuO-RN_e8Favy9zlFaosw_ngZj87oBWaEbs8yGuk9lLBAKNvbHgHOJjU class=cta_btn tst2 target=_blank style=background-color:#1A73E8; border:1px solid #1A73E8; border-radius:4px; color:#ffffff; display:inline-block; font-size:14px; line-height:16px; text-decoration:none; padding:10px 25px 9px 25px; -webkit-text-size-adjust:none;mso-hide:all; text-align:center;word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal;  dir=ltr>Check Security Status
+</a>
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-->
+
+<a href=https://notifications.google.com/g/p/AD-FnEyDZiMQPT9ZmKBpjGouJqF5gTWHcLisZu7GG_JMCR3O60n37hPSIpmfCOZoriMBRc7vChPcaAzW--Vp8NUkCIxqmpdB4JdTJTgecO1NlnZPFCxQqRYKGsO3vQIyq6OhOZEGVVzsDMIgh57aZtgaszgodHw7SWIq3d9B1QVJKTnheoO41dLAS_Z7OpJw_0fUtUxn31XV-cPMo4TYa5TywzNqWZq3AuO-RN_e8Favy9zlFaosw_ngZj87oBWaEbs8yGuk9lLBAKNvbHgHOJjU target=_blank dir=ltr style=text-align: center; display: inline-block;>
+
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;display:inline-block;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+<tr>
+<td style=background-color:#1A73E8;border:1px solid #1A73E8;border-radius:4px;color:#ffffff;display:inline-block;font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px;line-height:21px;text-decoration:none;padding: 7px 26px 6px 26px;-webkit-text-size-adjust:none;mso-hide:all;font-weight:500;text-align: center;direction:ltr; padding: 7px 25px 6px 25px; class=cta_btn>Check Security Status
+
+</td>
+</tr>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;display:inline-block;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+</table>
+</a>
+
+<!--
+<![endif]-->
+
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+<table role=presentation border=0 cellspacing=0 cellpadding=0 width=100%>
+
+<tr>
+
+<td align=center style=padding-top:27px; padding-bottom:0px;  valign=top>
+
+<img role=presentation class=module_mobile width=39 border=0 src=https://www.gstatic.com/images/branding/product/2x/email_64dp.png style=width: 39px; text-align: center; border: none; font-size:9px;>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align=center class=headline_cls style=color:#202124; font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:18px; font-weight:400; line-height:27px; margin:0; padding:0 40px 5px 40px; text-align:center; word-break:normal;direction:ltr;  dir=ltr>Want to stay in the loop?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=subheadline_cls align=center style=color:#3C4043; font-family:Roboto, San-Francisco, Helvetica, Arial; font-size:14px; font-weight:normal; line-height:21px; margin:0; padding:0 40px 20px 40px; text-align:center; word-break:normal;direction:ltr; color: #5F6368; dir=ltr>Sign up to receive personalized tips, news and recommendations to help you get the most out of your Google Account.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=cta_class tst3 style=text-align: center; padding: 0; padding-bottom:30px; >
+
+<div>
+
+<!--[if mso]>
+
+<v:roundrect xmlns:v=urn:schemas-microsoft-com:vml xmlns:w=urn:schemas-microsoft-com:office:word href=https://notifications.google.com/g/p/AD-FnExR5_QxHO0EhahjAIrq70EaLcvAS6BHCkJlAXNpkmfj_9QUNc4Jx96tVLA804wphZHnj3kp51GgR9t1YvkLrVwxs8tT6GwNTzFczTA976c80sOmmTMkhXwnwmlRnPSLxActiafQWLYPHh6W-hirbi76sVDxddou-I5SBx1zDOJQ7Rr1TpjcZC-ftkwr_z-J2HpO0dVK2OZWPAEHlNQpAsBA0isf4NgQKqXKO54H-kICjcILbdXcKdDFxuRhPNqG0PVgvxT5ozUs9ZmNdFD_-er6mTsK7j7VOALukXnIp9RshyArLIvILgd6gg style=height:36px; v-text-anchor:middle; width:130px; arcsize=16% strokecolor=#1A73E8 fillcolor=#1A73E8;>
+
+<w:anchorlock/>
+
+<center style=color:#ffffff; word-break:normal;direction:ltr; font-size:14px; font-family:Arial;font-weight:normal; dir=ltr>Keep me updated
+</center>
+
+</v:roundrect>
+
+<a href=https://notifications.google.com/g/p/AD-FnExR5_QxHO0EhahjAIrq70EaLcvAS6BHCkJlAXNpkmfj_9QUNc4Jx96tVLA804wphZHnj3kp51GgR9t1YvkLrVwxs8tT6GwNTzFczTA976c80sOmmTMkhXwnwmlRnPSLxActiafQWLYPHh6W-hirbi76sVDxddou-I5SBx1zDOJQ7Rr1TpjcZC-ftkwr_z-J2HpO0dVK2OZWPAEHlNQpAsBA0isf4NgQKqXKO54H-kICjcILbdXcKdDFxuRhPNqG0PVgvxT5ozUs9ZmNdFD_-er6mTsK7j7VOALukXnIp9RshyArLIvILgd6gg class=cta_btn tst3 target=_blank style=background-color:#1A73E8; border:1px solid #1A73E8; border-radius:4px; color:#ffffff; display:inline-block; font-size:14px; line-height:21px; text-decoration:none;padding: 10px 26px 9px 26px; -webkit-text-size-adjust:none;mso-hide:all; text-align: center; word-break:normal; direction:ltr; font-size:14px; font-family:Arial;font-weight:normal;  dir=ltr>Keep me updated
+
+</a>
+
+<![endif]-->
+
+<!--[if !mso]>
+<!-->
+
+<a href=https://notifications.google.com/g/p/AD-FnExR5_QxHO0EhahjAIrq70EaLcvAS6BHCkJlAXNpkmfj_9QUNc4Jx96tVLA804wphZHnj3kp51GgR9t1YvkLrVwxs8tT6GwNTzFczTA976c80sOmmTMkhXwnwmlRnPSLxActiafQWLYPHh6W-hirbi76sVDxddou-I5SBx1zDOJQ7Rr1TpjcZC-ftkwr_z-J2HpO0dVK2OZWPAEHlNQpAsBA0isf4NgQKqXKO54H-kICjcILbdXcKdDFxuRhPNqG0PVgvxT5ozUs9ZmNdFD_-er6mTsK7j7VOALukXnIp9RshyArLIvILgd6gg target=_blank dir=ltr style=text-align: center; display: inline-block;>
+
+<table role=presentation cellspacing=0 cellpadding=0 align=center>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;display:inline-block;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+<tr>
+<td style=background-color:#1A73E8;border:1px solid #1A73E8;border-radius:4px;color:#ffffff;display:inline-block;font-family:Google Sans, Roboto, San-Francisco, Helvetica, Arial; font-size:14px;line-height:21px;text-decoration:none;padding: 7px 26px 6px 26px;-webkit-text-size-adjust:none;mso-hide:all;font-weight:500;text-align: center;direction:ltr;  class=cta_btn>Keep me updated
+
+</td>
+</tr>
+
+<tr style=padding: 0; margin: 0; font-size: 0; line-height: 0;>
+<td style=border-top: 6px solid #ffffff;display:inline-block;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;-webkit-text-size-adjust:none;mso-hide:all;text-align: center;>
+</td>
+</tr>
+
+</table>
+</a>
+
+<!--
+<![endif]-->
+
+</div>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr border=0 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td align= valign= bgcolor= width= height= class= style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; >
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style=width:480px; background-color:#F8F9FA width=480>
+
+<tbody>
+
+<tr>
+
+<td align=center valign= bgcolor=FFFFFF width= height= class=footer_main style=border-collapse: collapse;border-spacing: 0;padding: 0;margin: 0;width: 480px;padding-bottom: 73px; background-color: #FFFFFF;>
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 style=width:480px; background-color:#F8F9FA width=480>
+
+<tbody>
+
+<tr>
+
+<td class=footer_texts footer_address style=font-family:Roboto, San-Francisco, Helvetica, Arial; font-weight:normal; font-size:12px; line-height:16px; color:#9B9B9B; text-align:center; padding:20px 20px 15px 20px; color:#5F6368; line-height: 18px; direction: ltr; background-color:#F8F9FA>
+This informational email was sent to 
+<a href=mailto:msuwebmail1@gmail.com target=_blank style=color:#5F6368; text-decoration:none; font-weight:normal; border:0; ; white-space: nowrap;> msuwebmail1@gmail.com
+</a> because you recently signed into your Google Account on your Linux. If you do not wish to receive emails to help you set up your new device with Google when you sign into your account on the device for the first time, please 
+<a href=https://notifications.google.com/g/p/AD-FnEwriSskKMR-kkz8ameqU7RYSuR1FZK76Ee7AIUovbtab7bMtVGiFl6DScQbvEVamuCeAbIOzQiMoyzurgigqt3WXqbrSabusIizLsUAE_nyf2QH_JdDV3p2B9KeLdWfbHHA7Po1rqBHMh4D2g8RzQCJltvPHzfhRWhI1vTpfovSW6KUKZIWD2LimAd416LKO_358Z8dTBhy8Id-d_BgsbkH80uHBnkhA3M-e0S-rbuMcVmNACoOClzveiafJ4vkwD-R_jJd9wUnjZ_imaQbpF_Uxa_95gAJV_-qH2-FPLiK8MH53o14atS0gQ target=_blank style=color:#5F6368; text-decoration:underline; font-weight:normal; border:0; ; white-space: nowrap;> unsubscribe
+</a>.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class=footer_texts footer_address style=font-family:Roboto, San-Francisco, Helvetica, Arial; font-weight:normal; font-size:12px; line-height:16px; color:#9B9B9B; text-align:center; padding: 0px 10px 32px 10px; color:#5F6368; line-height: 18px; background-color:#F8F9FA>
+
+<span style=font-size:inherit; color:inherit; font-weight:inherit; line-height:inherit; font-family:inherit;>Â© 2021 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043
+</span>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+<tr border=0 style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td align= valign= bgcolor= width= height=20 class=mobileRow style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; height:20px;>
+Â  
+</td>
+
+</tr>
+
+</table>
+
+<table role=presentation border=0 cellpadding=0 cellspacing=0 width=481 style=width:481px;margin:0; padding:0; table-layout:fixed;>
+
+<tr style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0;>
+
+<td style=border-collapse: collapse; border-spacing: 0; padding: 0; margin: 0; height:5px;line-height:0px; max-height:5px;overflow:hidden;font-size:0px; height=5>
+
+<img src=https://services.google.com/fh/files/emails/spacer1.png width=481 height=5 align=left style=height:5px;max-height:5px;line-height:5px;display:block; role=presentation>
+
+</td>
+
+</tr>
+
+</table>
+
+</center>
+
+</section>
+
+<img alt= height=1 width=3 src=https://notifications.google.com/g/img/AD-FnEwdP3cb0nP105R-OJRwudH1JURy9JaEFKjEjZhguWCC-ow.gif>
+</body>
+
+</html>` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail16();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail16(){
+document.getElementById("email16").style.display = "block";
+}
+function closeEmail16() {
+document.getElementById("email16").style.display = "none";
+}
+</script>
+</td>
+</tr>
+<tr class="w3-animate-zoom" onclick="openEmail15();">
+<td>Google <no-reply@accounts.google.co</td>
+<td>Security alert</td>
+<td><p>Thu, 21 Oct 21 11:34PM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email15">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: Google <no-reply@accounts.google.co<br>
+Subject: Security alert</h5>
+<h6>Date: Thu, 21 Oct 21 11:34PM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="format-detection" content="email=no"/>
+<meta name="format-detection" content="date=no"/>
+<style nonce="ebcatyEaOfUfP6qO2o5y4g">.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href="//fonts.googleapis.com/css?family=Google+Sans" rel="stylesheet" type="text/css" nonce="ebcatyEaOfUfP6qO2o5y4g"/>
+</head>
+<body style="margin: 0; padding: 0;" bgcolor="#FFFFFF">
+<table width="100%" height="100%" style="min-width: 348px;" border="0" cellspacing="0" cellpadding="0" lang="en">
+<tr height="32" style="height: 32px;">
+<td>
+</td>
+</tr>
+<tr align="center">
+<td>
+<div itemscope itemtype="//schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="//schema.org/ViewAction">
+<link itemprop="url" href="https://accounts.google.com/RecoverAccount?fpOnly=1&amp;source=ancp&amp;Email=msuwebmail1@gmail.com&amp;et=0&amp;anexp=nret-fa"/>
+<meta itemprop="name" content="Review Activity"/>
+</div>
+</div>
+<table border="0" cellspacing="0" cellpadding="0" style="padding-bottom: 20px; max-width: 516px; min-width: 220px;">
+<tr>
+<td width="8" style="width: 8px;">
+</td>
+<td>
+<div style="border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px;" align="center" class="mdv2rw">
+<img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" width="74" height="24" aria-hidden="true" style="margin-bottom: 16px;" alt="Google">
+<div style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;">
+<div style="font-size: 24px;">Your password was changed 
+</div>
+<table align="center" style="margin-top:8px;">
+<tr style="line-height: normal;">
+<td align="right" style="padding-right:8px;">
+<img width="20" height="20" style="width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;;" src="https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96" alt="">
+</td>
+<td>
+<a style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;">msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: left;">The password for your Google account  msuwebmail1@gmail.com was changed. If you didnt change it, you should  
+<a href="https://accounts.google.com/RecoverAccount?fpOnly=1&amp;source=ancp&amp;Email=msuwebmail1@gmail.com&amp;et=0&amp;anexp=nret-fa" data-meta-key="recover-account" style="text-decoration: none; color: #4285F4;" target="_blank">recover&nbsp;your&nbsp;account
+</a>.
+</div>
+<div style="padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.3px; text-align: center">You can also see security activity at
+<br>
+<a style="color: rgba(0, 0, 0, 0.87);text-decoration: inherit;">https://myaccount.google.com/notifications
+</a>
+</div>
+</div>
+<div style="text-align: left;">
+<div style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;">
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style="direction: ltr;">&copy; 2021 Google LLC, 
+<a class="afal" style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width="8" style="width: 8px;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height="32" style="height: 32px;">
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: Security alert` , `
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name=format-detection content=email=no/>
+<meta name=format-detection content=date=no/>
+<style nonce=ebcatyEaOfUfP6qO2o5y4g>.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href=//fonts.googleapis.com/css?family=Google+Sans rel=stylesheet type=text/css nonce=ebcatyEaOfUfP6qO2o5y4g/>
+</head>
+<body style=margin: 0; padding: 0; bgcolor=#FFFFFF>
+<table width=100% height=100% style=min-width: 348px; border=0 cellspacing=0 cellpadding=0 lang=en>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+<tr align=center>
+<td>
+<div itemscope itemtype=//schema.org/EmailMessage>
+<div itemprop=action itemscope itemtype=//schema.org/ViewAction>
+<link itemprop=url href=https://accounts.google.com/RecoverAccount?fpOnly=1&amp;source=ancp&amp;Email=msuwebmail1@gmail.com&amp;et=0&amp;anexp=nret-fa/>
+<meta itemprop=name content=Review Activity/>
+</div>
+</div>
+<table border=0 cellspacing=0 cellpadding=0 style=padding-bottom: 20px; max-width: 516px; min-width: 220px;>
+<tr>
+<td width=8 style=width: 8px;>
+</td>
+<td>
+<div style=border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px; align=center class=mdv2rw>
+<img src=https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png width=74 height=24 aria-hidden=true style=margin-bottom: 16px; alt=Google>
+<div style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;>
+<div style=font-size: 24px;>Your password was changed 
+</div>
+<table align=center style=margin-top:8px;>
+<tr style=line-height: normal;>
+<td align=right style=padding-right:8px;>
+<img width=20 height=20 style=width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;; src=https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96 alt=>
+</td>
+<td>
+<a style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;>msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: left;>The password for your Google account  msuwebmail1@gmail.com was changed. If you didnt change it, you should  
+<a href=https://accounts.google.com/RecoverAccount?fpOnly=1&amp;source=ancp&amp;Email=msuwebmail1@gmail.com&amp;et=0&amp;anexp=nret-fa data-meta-key=recover-account style=text-decoration: none; color: #4285F4; target=_blank>recover&nbsp;your&nbsp;account
+</a>.
+</div>
+<div style=padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.3px; text-align: center>You can also see security activity at
+<br>
+<a style=color: rgba(0, 0, 0, 0.87);text-decoration: inherit;>https://myaccount.google.com/notifications
+</a>
+</div>
+</div>
+<div style=text-align: left;>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style=direction: ltr;>&copy; 2021 Google LLC, 
+<a class=afal style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width=8 style=width: 8px;>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>` , ``, `no-reply@accounts.google.c`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+Security alert` , `
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name=format-detection content=email=no/>
+<meta name=format-detection content=date=no/>
+<style nonce=ebcatyEaOfUfP6qO2o5y4g>.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href=//fonts.googleapis.com/css?family=Google+Sans rel=stylesheet type=text/css nonce=ebcatyEaOfUfP6qO2o5y4g/>
+</head>
+<body style=margin: 0; padding: 0; bgcolor=#FFFFFF>
+<table width=100% height=100% style=min-width: 348px; border=0 cellspacing=0 cellpadding=0 lang=en>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+<tr align=center>
+<td>
+<div itemscope itemtype=//schema.org/EmailMessage>
+<div itemprop=action itemscope itemtype=//schema.org/ViewAction>
+<link itemprop=url href=https://accounts.google.com/RecoverAccount?fpOnly=1&amp;source=ancp&amp;Email=msuwebmail1@gmail.com&amp;et=0&amp;anexp=nret-fa/>
+<meta itemprop=name content=Review Activity/>
+</div>
+</div>
+<table border=0 cellspacing=0 cellpadding=0 style=padding-bottom: 20px; max-width: 516px; min-width: 220px;>
+<tr>
+<td width=8 style=width: 8px;>
+</td>
+<td>
+<div style=border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px; align=center class=mdv2rw>
+<img src=https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png width=74 height=24 aria-hidden=true style=margin-bottom: 16px; alt=Google>
+<div style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;>
+<div style=font-size: 24px;>Your password was changed 
+</div>
+<table align=center style=margin-top:8px;>
+<tr style=line-height: normal;>
+<td align=right style=padding-right:8px;>
+<img width=20 height=20 style=width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;; src=https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96 alt=>
+</td>
+<td>
+<a style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;>msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: left;>The password for your Google account  msuwebmail1@gmail.com was changed. If you didnt change it, you should  
+<a href=https://accounts.google.com/RecoverAccount?fpOnly=1&amp;source=ancp&amp;Email=msuwebmail1@gmail.com&amp;et=0&amp;anexp=nret-fa data-meta-key=recover-account style=text-decoration: none; color: #4285F4; target=_blank>recover&nbsp;your&nbsp;account
+</a>.
+</div>
+<div style=padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.3px; text-align: center>You can also see security activity at
+<br>
+<a style=color: rgba(0, 0, 0, 0.87);text-decoration: inherit;>https://myaccount.google.com/notifications
+</a>
+</div>
+</div>
+<div style=text-align: left;>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style=direction: ltr;>&copy; 2021 Google LLC, 
+<a class=afal style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width=8 style=width: 8px;>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail15();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail15(){
+document.getElementById("email15").style.display = "block";
+}
+function closeEmail15() {
+document.getElementById("email15").style.display = "none";
+}
+</script>
+</td>
+</tr>
+<tr class="w3-animate-zoom" onclick="openEmail14();">
+<td>Google <no-reply@accounts.google.co</td>
+<td>Your Google Account was recovered successfully</td>
+<td><p>Thu, 21 Oct 21 11:34PM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email14">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: Google <no-reply@accounts.google.co<br>
+Subject: Your Google Account was recovered successfully</h5>
+<h6>Date: Thu, 21 Oct 21 11:34PM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="format-detection" content="email=no"/>
+<meta name="format-detection" content="date=no"/>
+<style nonce="40EY1dx5E+BbW57eLrzvBg">.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href="//fonts.googleapis.com/css?family=Google+Sans" rel="stylesheet" type="text/css" nonce="40EY1dx5E+BbW57eLrzvBg"/>
+</head>
+<body style="margin: 0; padding: 0;" bgcolor="#FFFFFF">
+<table width="100%" height="100%" style="min-width: 348px;" border="0" cellspacing="0" cellpadding="0" lang="en">
+<tr height="32" style="height: 32px;">
+<td>
+</td>
+</tr>
+<tr align="center">
+<td>
+<div itemscope itemtype="//schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="//schema.org/ViewAction">
+<link itemprop="url" href="https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/secure-account?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3Dph%26src%3D14%26aneid%3D1444999108316051545%26anexp%3Dnret-fa"/>
+<meta itemprop="name" content="Review Activity"/>
+</div>
+</div>
+<table border="0" cellspacing="0" cellpadding="0" style="padding-bottom: 20px; max-width: 516px; min-width: 220px;">
+<tr>
+<td width="8" style="width: 8px;">
+</td>
+<td>
+<div style="border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px;" align="center" class="mdv2rw">
+<img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" width="74" height="24" aria-hidden="true" style="margin-bottom: 16px;" alt="Google">
+<div style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;">
+<div style="font-size: 24px;">Account recovered successfully 
+</div>
+<table align="center" style="margin-top:8px;">
+<tr style="line-height: normal;">
+<td align="right" style="padding-right:8px;">
+<img width="20" height="20" style="width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;;" src="https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96" alt="">
+</td>
+<td>
+<a style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;">msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: left;">
+<h3>Welcome back to your account
+</h3>If you suspect you were locked out of your account because of changes made by someone else, you should 
+<a href="https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/secure-account?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3Dph%26src%3D14%26aneid%3D1444999108316051545%26anexp%3Dnret-fa" style="text-decoration: none; color: #4285F4;" target="_blank">review &amp; protect your account.
+</a>
+</div>
+</div>
+<div style="text-align: left;">
+<div style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;">
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style="direction: ltr;">&copy; 2021 Google LLC, 
+<a class="afal" style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width="8" style="width: 8px;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height="32" style="height: 32px;">
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: Your Google Account was recovered successfully` , `
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name=format-detection content=email=no/>
+<meta name=format-detection content=date=no/>
+<style nonce=40EY1dx5E+BbW57eLrzvBg>.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href=//fonts.googleapis.com/css?family=Google+Sans rel=stylesheet type=text/css nonce=40EY1dx5E+BbW57eLrzvBg/>
+</head>
+<body style=margin: 0; padding: 0; bgcolor=#FFFFFF>
+<table width=100% height=100% style=min-width: 348px; border=0 cellspacing=0 cellpadding=0 lang=en>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+<tr align=center>
+<td>
+<div itemscope itemtype=//schema.org/EmailMessage>
+<div itemprop=action itemscope itemtype=//schema.org/ViewAction>
+<link itemprop=url href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/secure-account?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3Dph%26src%3D14%26aneid%3D1444999108316051545%26anexp%3Dnret-fa/>
+<meta itemprop=name content=Review Activity/>
+</div>
+</div>
+<table border=0 cellspacing=0 cellpadding=0 style=padding-bottom: 20px; max-width: 516px; min-width: 220px;>
+<tr>
+<td width=8 style=width: 8px;>
+</td>
+<td>
+<div style=border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px; align=center class=mdv2rw>
+<img src=https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png width=74 height=24 aria-hidden=true style=margin-bottom: 16px; alt=Google>
+<div style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;>
+<div style=font-size: 24px;>Account recovered successfully 
+</div>
+<table align=center style=margin-top:8px;>
+<tr style=line-height: normal;>
+<td align=right style=padding-right:8px;>
+<img width=20 height=20 style=width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;; src=https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96 alt=>
+</td>
+<td>
+<a style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;>msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: left;>
+<h3>Welcome back to your account
+</h3>If you suspect you were locked out of your account because of changes made by someone else, you should 
+<a href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/secure-account?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3Dph%26src%3D14%26aneid%3D1444999108316051545%26anexp%3Dnret-fa style=text-decoration: none; color: #4285F4; target=_blank>review &amp; protect your account.
+</a>
+</div>
+</div>
+<div style=text-align: left;>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style=direction: ltr;>&copy; 2021 Google LLC, 
+<a class=afal style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width=8 style=width: 8px;>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>` , ``, `no-reply@accounts.google.c`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+Your Google Account was recovered successfully` , `
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name=format-detection content=email=no/>
+<meta name=format-detection content=date=no/>
+<style nonce=40EY1dx5E+BbW57eLrzvBg>.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href=//fonts.googleapis.com/css?family=Google+Sans rel=stylesheet type=text/css nonce=40EY1dx5E+BbW57eLrzvBg/>
+</head>
+<body style=margin: 0; padding: 0; bgcolor=#FFFFFF>
+<table width=100% height=100% style=min-width: 348px; border=0 cellspacing=0 cellpadding=0 lang=en>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+<tr align=center>
+<td>
+<div itemscope itemtype=//schema.org/EmailMessage>
+<div itemprop=action itemscope itemtype=//schema.org/ViewAction>
+<link itemprop=url href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/secure-account?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3Dph%26src%3D14%26aneid%3D1444999108316051545%26anexp%3Dnret-fa/>
+<meta itemprop=name content=Review Activity/>
+</div>
+</div>
+<table border=0 cellspacing=0 cellpadding=0 style=padding-bottom: 20px; max-width: 516px; min-width: 220px;>
+<tr>
+<td width=8 style=width: 8px;>
+</td>
+<td>
+<div style=border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px; align=center class=mdv2rw>
+<img src=https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png width=74 height=24 aria-hidden=true style=margin-bottom: 16px; alt=Google>
+<div style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;>
+<div style=font-size: 24px;>Account recovered successfully 
+</div>
+<table align=center style=margin-top:8px;>
+<tr style=line-height: normal;>
+<td align=right style=padding-right:8px;>
+<img width=20 height=20 style=width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;; src=https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96 alt=>
+</td>
+<td>
+<a style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;>msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: left;>
+<h3>Welcome back to your account
+</h3>If you suspect you were locked out of your account because of changes made by someone else, you should 
+<a href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/secure-account?utm_source%3Demail%26utm_medium%3Demail%26utm_campaign%3Dph%26src%3D14%26aneid%3D1444999108316051545%26anexp%3Dnret-fa style=text-decoration: none; color: #4285F4; target=_blank>review &amp; protect your account.
+</a>
+</div>
+</div>
+<div style=text-align: left;>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style=direction: ltr;>&copy; 2021 Google LLC, 
+<a class=afal style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width=8 style=width: 8px;>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail14();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail14(){
+document.getElementById("email14").style.display = "block";
+}
+function closeEmail14() {
+document.getElementById("email14").style.display = "none";
+}
+</script>
+</td>
+</tr>
+<tr class="w3-animate-zoom" onclick="openEmail13();">
+<td>Google <no-reply@accounts.google.co</td>
+<td>Security alert</td>
+<td><p>Thu, 21 Oct 21 11:34PM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email13">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: Google <no-reply@accounts.google.co<br>
+Subject: Security alert</h5>
+<h6>Date: Thu, 21 Oct 21 11:34PM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="format-detection" content="email=no"/>
+<meta name="format-detection" content="date=no"/>
+<style nonce="D9isay65KnBJ0yYKYKwhrA">.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href="//fonts.googleapis.com/css?family=Google+Sans" rel="stylesheet" type="text/css" nonce="D9isay65KnBJ0yYKYKwhrA"/>
+</head>
+<body style="margin: 0; padding: 0;" bgcolor="#FFFFFF">
+<table width="100%" height="100%" style="min-width: 348px;" border="0" cellspacing="0" cellpadding="0" lang="en">
+<tr height="32" style="height: 32px;">
+<td>
+</td>
+</tr>
+<tr align="center">
+<td>
+<div itemscope itemtype="//schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="//schema.org/ViewAction">
+<link itemprop="url" href="https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1634859250000?rfn%3D31%26rfnc%3D1%26eid%3D3968806791520127245%26et%3D0%26anexp%3Dnret-fa"/>
+<meta itemprop="name" content="Review Activity"/>
+</div>
+</div>
+<table border="0" cellspacing="0" cellpadding="0" style="padding-bottom: 20px; max-width: 516px; min-width: 220px;">
+<tr>
+<td width="8" style="width: 8px;">
+</td>
+<td>
+<div style="border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px;" align="center" class="mdv2rw">
+<img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" width="74" height="24" aria-hidden="true" style="margin-bottom: 16px;" alt="Google">
+<div style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;">
+<div style="font-size: 24px;">New device signed in&nbsp;to 
+</div>
+<table align="center" style="margin-top:8px;">
+<tr style="line-height: normal;">
+<td align="right" style="padding-right:8px;">
+<img width="20" height="20" style="width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;;" src="https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96" alt="">
+</td>
+<td>
+<a style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;">msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: center;">Your Google Account was just signed in to from a new Linux device. Youre getting this email to make sure it was you.
+<div style="padding-top: 32px; text-align: center;">
+<a href="https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1634859250000?rfn%3D31%26rfnc%3D1%26eid%3D3968806791520127245%26et%3D0%26anexp%3Dnret-fa" target="_blank" link-id="main-button-link" style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 14px;display:inline-block;padding: 10px 24px;background-color: #4184F3; border-radius: 5px; min-width: 90px;">Check activity
+</a>
+</div>
+</div>
+<div style="padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.3px; text-align: center">You can also see security activity at
+<br>
+<a style="color: rgba(0, 0, 0, 0.87);text-decoration: inherit;">https://myaccount.google.com/notifications
+</a>
+</div>
+</div>
+<div style="text-align: left;">
+<div style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;">
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style="direction: ltr;">&copy; 2021 Google LLC, 
+<a class="afal" style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width="8" style="width: 8px;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height="32" style="height: 32px;">
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: Security alert` , `
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name=format-detection content=email=no/>
+<meta name=format-detection content=date=no/>
+<style nonce=D9isay65KnBJ0yYKYKwhrA>.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href=//fonts.googleapis.com/css?family=Google+Sans rel=stylesheet type=text/css nonce=D9isay65KnBJ0yYKYKwhrA/>
+</head>
+<body style=margin: 0; padding: 0; bgcolor=#FFFFFF>
+<table width=100% height=100% style=min-width: 348px; border=0 cellspacing=0 cellpadding=0 lang=en>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+<tr align=center>
+<td>
+<div itemscope itemtype=//schema.org/EmailMessage>
+<div itemprop=action itemscope itemtype=//schema.org/ViewAction>
+<link itemprop=url href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1634859250000?rfn%3D31%26rfnc%3D1%26eid%3D3968806791520127245%26et%3D0%26anexp%3Dnret-fa/>
+<meta itemprop=name content=Review Activity/>
+</div>
+</div>
+<table border=0 cellspacing=0 cellpadding=0 style=padding-bottom: 20px; max-width: 516px; min-width: 220px;>
+<tr>
+<td width=8 style=width: 8px;>
+</td>
+<td>
+<div style=border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px; align=center class=mdv2rw>
+<img src=https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png width=74 height=24 aria-hidden=true style=margin-bottom: 16px; alt=Google>
+<div style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;>
+<div style=font-size: 24px;>New device signed in&nbsp;to 
+</div>
+<table align=center style=margin-top:8px;>
+<tr style=line-height: normal;>
+<td align=right style=padding-right:8px;>
+<img width=20 height=20 style=width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;; src=https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96 alt=>
+</td>
+<td>
+<a style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;>msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: center;>Your Google Account was just signed in to from a new Linux device. Youre getting this email to make sure it was you.
+<div style=padding-top: 32px; text-align: center;>
+<a href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1634859250000?rfn%3D31%26rfnc%3D1%26eid%3D3968806791520127245%26et%3D0%26anexp%3Dnret-fa target=_blank link-id=main-button-link style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 14px;display:inline-block;padding: 10px 24px;background-color: #4184F3; border-radius: 5px; min-width: 90px;>Check activity
+</a>
+</div>
+</div>
+<div style=padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.3px; text-align: center>You can also see security activity at
+<br>
+<a style=color: rgba(0, 0, 0, 0.87);text-decoration: inherit;>https://myaccount.google.com/notifications
+</a>
+</div>
+</div>
+<div style=text-align: left;>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style=direction: ltr;>&copy; 2021 Google LLC, 
+<a class=afal style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width=8 style=width: 8px;>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>` , ``, `no-reply@accounts.google.c`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+Security alert` , `
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name=format-detection content=email=no/>
+<meta name=format-detection content=date=no/>
+<style nonce=D9isay65KnBJ0yYKYKwhrA>.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href=//fonts.googleapis.com/css?family=Google+Sans rel=stylesheet type=text/css nonce=D9isay65KnBJ0yYKYKwhrA/>
+</head>
+<body style=margin: 0; padding: 0; bgcolor=#FFFFFF>
+<table width=100% height=100% style=min-width: 348px; border=0 cellspacing=0 cellpadding=0 lang=en>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+<tr align=center>
+<td>
+<div itemscope itemtype=//schema.org/EmailMessage>
+<div itemprop=action itemscope itemtype=//schema.org/ViewAction>
+<link itemprop=url href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1634859250000?rfn%3D31%26rfnc%3D1%26eid%3D3968806791520127245%26et%3D0%26anexp%3Dnret-fa/>
+<meta itemprop=name content=Review Activity/>
+</div>
+</div>
+<table border=0 cellspacing=0 cellpadding=0 style=padding-bottom: 20px; max-width: 516px; min-width: 220px;>
+<tr>
+<td width=8 style=width: 8px;>
+</td>
+<td>
+<div style=border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px; align=center class=mdv2rw>
+<img src=https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png width=74 height=24 aria-hidden=true style=margin-bottom: 16px; alt=Google>
+<div style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;>
+<div style=font-size: 24px;>New device signed in&nbsp;to 
+</div>
+<table align=center style=margin-top:8px;>
+<tr style=line-height: normal;>
+<td align=right style=padding-right:8px;>
+<img width=20 height=20 style=width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;; src=https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96 alt=>
+</td>
+<td>
+<a style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;>msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: center;>Your Google Account was just signed in to from a new Linux device. Youre getting this email to make sure it was you.
+<div style=padding-top: 32px; text-align: center;>
+<a href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1634859250000?rfn%3D31%26rfnc%3D1%26eid%3D3968806791520127245%26et%3D0%26anexp%3Dnret-fa target=_blank link-id=main-button-link style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 14px;display:inline-block;padding: 10px 24px;background-color: #4184F3; border-radius: 5px; min-width: 90px;>Check activity
+</a>
+</div>
+</div>
+<div style=padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.3px; text-align: center>You can also see security activity at
+<br>
+<a style=color: rgba(0, 0, 0, 0.87);text-decoration: inherit;>https://myaccount.google.com/notifications
+</a>
+</div>
+</div>
+<div style=text-align: left;>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style=direction: ltr;>&copy; 2021 Google LLC, 
+<a class=afal style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width=8 style=width: 8px;>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail13();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail13(){
+document.getElementById("email13").style.display = "block";
+}
+function closeEmail13() {
+document.getElementById("email13").style.display = "none";
+}
+</script>
+</td>
+</tr>
+<tr class="w3-animate-zoom" onclick="openEmail12();">
+<td>Google <no-reply@accounts.google.co</td>
+<td>Help strengthen the security of your Google Account</td>
+<td><p>Tue, 05 Oct 21 01:43AM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email12">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: Google <no-reply@accounts.google.co<br>
+Subject: Help strengthen the security of your Google Account</h5>
+<h6>Date: Tue, 05 Oct 21 01:43AM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="format-detection" content="email=no"/>
+<meta name="format-detection" content="date=no"/>
+<style nonce="S9v/34TqifzNBsLLMPb80g">.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href="//fonts.googleapis.com/css?family=Google+Sans" rel="stylesheet" type="text/css" nonce="S9v/34TqifzNBsLLMPb80g"/>
+</head>
+<body style="margin: 0; padding: 0;" bgcolor="#FFFFFF">
+<table width="100%" height="100%" style="min-width: 348px;" border="0" cellspacing="0" cellpadding="0" lang="en">
+<tr height="32" style="height: 32px;">
+<td>
+</td>
+</tr>
+<tr align="center">
+<td>
+<div itemscope itemtype="//schema.org/EmailMessage">
+<div itemprop="action" itemscope itemtype="//schema.org/ViewAction">
+<link itemprop="url" href="https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/security-checkup?utm_source%3Dgoogle%26utm_medium%3Demail%26utm_campaign%3Dsap%26aneid%3D7618509398949383933%26sea%3D10%26rfn%3D1633398212804%26anexp%3Dsaprfsm-const--nret-fa--sapef-a2"/>
+<meta itemprop="name" content="Review Activity"/>
+</div>
+</div>
+<table border="0" cellspacing="0" cellpadding="0" style="padding-bottom: 20px; max-width: 516px; min-width: 220px;">
+<tr>
+<td width="8" style="width: 8px;">
+</td>
+<td>
+<div style="border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px;" align="center" class="mdv2rw">
+<img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" width="74" height="24" aria-hidden="true" style="margin-bottom: 16px;" alt="Google">
+<div style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;padding-bottom: 32px;text-align: center; word-break: break-word;">
+<div style="font-size: 24px;">
+<table style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size: 24px; line-height: 28px; text-align: center; width: 100%;">
+<tr>
+<td>
+<a>
+<img width="66" height="57" src="https://www.gstatic.com/accountalerts/email/sa_shield_yellow_161017_103x90@2.png" style="width: 66px; height: 57px;" alt=""/>
+</a>
+</td>
+</tr>
+<tr>
+<td style="font-family: inherit;">Turn off less secure&nbsp;access
+</td>
+</tr>
+</table> 
+</div>
+<table align="center" style="margin-top:8px;">
+<tr style="line-height: normal;">
+<td align="right" style="padding-right:8px;">
+<img width="20" height="20" style="width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;;" src="https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96" alt="">
+</td>
+<td>
+<a style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;">msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: left;">
+<table style="font-size: 14px; letter-spacing: 0.2; line-height: 20px; text-align: center;">
+<tr>
+<td style="padding-bottom: 24px; text-align: start;">
+<table jsname="tip" style="margin-left: -20px;">
+<tr>
+<td style="vertical-align: top;">
+<img width="70" height="70" src="https://www.gstatic.com/accountalerts/email/turnoff_2x_70x70.png" style="width: 70px; height: 70px; margin-top: 2px;"/>
+</td>
+<td style="font-size: 14px; letter-spacing: 0.2; line-height: 20px;padding-left: 3%;;">Your personal information is vulnerable because you allow apps & devices to access your account in a less secure&nbsp;way.
+<div style="height: 13px;">
+</div>Turn off this type of access and see other personalized security recommendations in the 
+<a href="https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/security-checkup?utm_source%3Dgoogle%26utm_medium%3Demail%26utm_campaign%3Dsap%26aneid%3D7618509398949383933%26sea%3D10%26rfn%3D1633398212804%26anexp%3Dsaprfsm-const--nret-fa--sapef-a2" target="_blank" link-id="content-main-link">Security&nbsp;Checkup
+</a>.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/security-checkup?utm_source%3Dgoogle%26utm_medium%3Demail%26utm_campaign%3Dsap%26aneid%3D7618509398949383933%26sea%3D10%26rfn%3D1633398212804%26anexp%3Dsaprfsm-const--nret-fa--sapef-a2" target="_blank" data-meta-key="go-to-sa" link-id="main-button-link" style="font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 13px;display:inline-block;padding: 6px 24px;background-color: #4184F3; border-radius: 5px; min-width: 90px;">Take action
+</a>
+</td>
+</tr>
+<tr style="color: rgba(0, 0, 0, 0.54); font-size: 12px; line-height: 150%; text-align: center;">
+<td style="padding-top: 12px">You can also go directly to:
+<br>
+<a class="adgl" style="color: rgba(0, 0, 0, 0.87);text-decoration: inherit;">https://myaccount.google.com/security-checkup
+</a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div style="text-align: center;">
+<div style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;">
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style="direction: ltr;">&copy; 2021 Google LLC, 
+<a class="afal" style="font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width="8" style="width: 8px;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height="32" style="height: 32px;">
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: Help strengthen the security of your Google Account` , `
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name=format-detection content=email=no/>
+<meta name=format-detection content=date=no/>
+<style nonce=S9v/34TqifzNBsLLMPb80g>.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href=//fonts.googleapis.com/css?family=Google+Sans rel=stylesheet type=text/css nonce=S9v/34TqifzNBsLLMPb80g/>
+</head>
+<body style=margin: 0; padding: 0; bgcolor=#FFFFFF>
+<table width=100% height=100% style=min-width: 348px; border=0 cellspacing=0 cellpadding=0 lang=en>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+<tr align=center>
+<td>
+<div itemscope itemtype=//schema.org/EmailMessage>
+<div itemprop=action itemscope itemtype=//schema.org/ViewAction>
+<link itemprop=url href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/security-checkup?utm_source%3Dgoogle%26utm_medium%3Demail%26utm_campaign%3Dsap%26aneid%3D7618509398949383933%26sea%3D10%26rfn%3D1633398212804%26anexp%3Dsaprfsm-const--nret-fa--sapef-a2/>
+<meta itemprop=name content=Review Activity/>
+</div>
+</div>
+<table border=0 cellspacing=0 cellpadding=0 style=padding-bottom: 20px; max-width: 516px; min-width: 220px;>
+<tr>
+<td width=8 style=width: 8px;>
+</td>
+<td>
+<div style=border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px; align=center class=mdv2rw>
+<img src=https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png width=74 height=24 aria-hidden=true style=margin-bottom: 16px; alt=Google>
+<div style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;padding-bottom: 32px;text-align: center; word-break: break-word;>
+<div style=font-size: 24px;>
+<table style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size: 24px; line-height: 28px; text-align: center; width: 100%;>
+<tr>
+<td>
+<a>
+<img width=66 height=57 src=https://www.gstatic.com/accountalerts/email/sa_shield_yellow_161017_103x90@2.png style=width: 66px; height: 57px; alt=/>
+</a>
+</td>
+</tr>
+<tr>
+<td style=font-family: inherit;>Turn off less secure&nbsp;access
+</td>
+</tr>
+</table> 
+</div>
+<table align=center style=margin-top:8px;>
+<tr style=line-height: normal;>
+<td align=right style=padding-right:8px;>
+<img width=20 height=20 style=width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;; src=https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96 alt=>
+</td>
+<td>
+<a style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;>msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: left;>
+<table style=font-size: 14px; letter-spacing: 0.2; line-height: 20px; text-align: center;>
+<tr>
+<td style=padding-bottom: 24px; text-align: start;>
+<table jsname=tip style=margin-left: -20px;>
+<tr>
+<td style=vertical-align: top;>
+<img width=70 height=70 src=https://www.gstatic.com/accountalerts/email/turnoff_2x_70x70.png style=width: 70px; height: 70px; margin-top: 2px;/>
+</td>
+<td style=font-size: 14px; letter-spacing: 0.2; line-height: 20px;padding-left: 3%;;>Your personal information is vulnerable because you allow apps & devices to access your account in a less secure&nbsp;way.
+<div style=height: 13px;>
+</div>Turn off this type of access and see other personalized security recommendations in the 
+<a href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/security-checkup?utm_source%3Dgoogle%26utm_medium%3Demail%26utm_campaign%3Dsap%26aneid%3D7618509398949383933%26sea%3D10%26rfn%3D1633398212804%26anexp%3Dsaprfsm-const--nret-fa--sapef-a2 target=_blank link-id=content-main-link>Security&nbsp;Checkup
+</a>.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<a href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/security-checkup?utm_source%3Dgoogle%26utm_medium%3Demail%26utm_campaign%3Dsap%26aneid%3D7618509398949383933%26sea%3D10%26rfn%3D1633398212804%26anexp%3Dsaprfsm-const--nret-fa--sapef-a2 target=_blank data-meta-key=go-to-sa link-id=main-button-link style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 13px;display:inline-block;padding: 6px 24px;background-color: #4184F3; border-radius: 5px; min-width: 90px;>Take action
+</a>
+</td>
+</tr>
+<tr style=color: rgba(0, 0, 0, 0.54); font-size: 12px; line-height: 150%; text-align: center;>
+<td style=padding-top: 12px>You can also go directly to:
+<br>
+<a class=adgl style=color: rgba(0, 0, 0, 0.87);text-decoration: inherit;>https://myaccount.google.com/security-checkup
+</a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div style=text-align: center;>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style=direction: ltr;>&copy; 2021 Google LLC, 
+<a class=afal style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width=8 style=width: 8px;>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>` , ``, `no-reply@accounts.google.c`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+Help strengthen the security of your Google Account` , `
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name=format-detection content=email=no/>
+<meta name=format-detection content=date=no/>
+<style nonce=S9v/34TqifzNBsLLMPb80g>.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} 
+</style>
+<link href=//fonts.googleapis.com/css?family=Google+Sans rel=stylesheet type=text/css nonce=S9v/34TqifzNBsLLMPb80g/>
+</head>
+<body style=margin: 0; padding: 0; bgcolor=#FFFFFF>
+<table width=100% height=100% style=min-width: 348px; border=0 cellspacing=0 cellpadding=0 lang=en>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+<tr align=center>
+<td>
+<div itemscope itemtype=//schema.org/EmailMessage>
+<div itemprop=action itemscope itemtype=//schema.org/ViewAction>
+<link itemprop=url href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/security-checkup?utm_source%3Dgoogle%26utm_medium%3Demail%26utm_campaign%3Dsap%26aneid%3D7618509398949383933%26sea%3D10%26rfn%3D1633398212804%26anexp%3Dsaprfsm-const--nret-fa--sapef-a2/>
+<meta itemprop=name content=Review Activity/>
+</div>
+</div>
+<table border=0 cellspacing=0 cellpadding=0 style=padding-bottom: 20px; max-width: 516px; min-width: 220px;>
+<tr>
+<td width=8 style=width: 8px;>
+</td>
+<td>
+<div style=border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px; align=center class=mdv2rw>
+<img src=https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png width=74 height=24 aria-hidden=true style=margin-bottom: 16px; alt=Google>
+<div style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;padding-bottom: 32px;text-align: center; word-break: break-word;>
+<div style=font-size: 24px;>
+<table style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size: 24px; line-height: 28px; text-align: center; width: 100%;>
+<tr>
+<td>
+<a>
+<img width=66 height=57 src=https://www.gstatic.com/accountalerts/email/sa_shield_yellow_161017_103x90@2.png style=width: 66px; height: 57px; alt=/>
+</a>
+</td>
+</tr>
+<tr>
+<td style=font-family: inherit;>Turn off less secure&nbsp;access
+</td>
+</tr>
+</table> 
+</div>
+<table align=center style=margin-top:8px;>
+<tr style=line-height: normal;>
+<td align=right style=padding-right:8px;>
+<img width=20 height=20 style=width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;; src=https://lh3.googleusercontent.com/a/AATXAJyj92zVwKRx7ROPLWsT_b_f4CWaVgeFSY3htGSj=s96 alt=>
+</td>
+<td>
+<a style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;>msuwebmail1@gmail.com
+</a>
+</td>
+</tr>
+</table> 
+</div>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: left;>
+<table style=font-size: 14px; letter-spacing: 0.2; line-height: 20px; text-align: center;>
+<tr>
+<td style=padding-bottom: 24px; text-align: start;>
+<table jsname=tip style=margin-left: -20px;>
+<tr>
+<td style=vertical-align: top;>
+<img width=70 height=70 src=https://www.gstatic.com/accountalerts/email/turnoff_2x_70x70.png style=width: 70px; height: 70px; margin-top: 2px;/>
+</td>
+<td style=font-size: 14px; letter-spacing: 0.2; line-height: 20px;padding-left: 3%;;>Your personal information is vulnerable because you allow apps & devices to access your account in a less secure&nbsp;way.
+<div style=height: 13px;>
+</div>Turn off this type of access and see other personalized security recommendations in the 
+<a href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/security-checkup?utm_source%3Dgoogle%26utm_medium%3Demail%26utm_campaign%3Dsap%26aneid%3D7618509398949383933%26sea%3D10%26rfn%3D1633398212804%26anexp%3Dsaprfsm-const--nret-fa--sapef-a2 target=_blank link-id=content-main-link>Security&nbsp;Checkup
+</a>.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<a href=https://accounts.google.com/AccountChooser?Email=msuwebmail1@gmail.com&amp;continue=https://myaccount.google.com/security-checkup?utm_source%3Dgoogle%26utm_medium%3Demail%26utm_campaign%3Dsap%26aneid%3D7618509398949383933%26sea%3D10%26rfn%3D1633398212804%26anexp%3Dsaprfsm-const--nret-fa--sapef-a2 target=_blank data-meta-key=go-to-sa link-id=main-button-link style=font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 13px;display:inline-block;padding: 6px 24px;background-color: #4184F3; border-radius: 5px; min-width: 90px;>Take action
+</a>
+</td>
+</tr>
+<tr style=color: rgba(0, 0, 0, 0.54); font-size: 12px; line-height: 150%; text-align: center;>
+<td style=padding-top: 12px>You can also go directly to:
+<br>
+<a class=adgl style=color: rgba(0, 0, 0, 0.87);text-decoration: inherit;>https://myaccount.google.com/security-checkup
+</a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div style=text-align: center;>
+<div style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>
+<div>You received this email to let you know about important changes to your Google Account and services.
+</div>
+<div style=direction: ltr;>&copy; 2021 Google LLC, 
+<a class=afal style=font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;>1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+</a>
+</div>
+</div>
+</div>
+</td>
+<td width=8 style=width: 8px;>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height=32 style=height: 32px;>
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail12();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail12(){
+document.getElementById("email12").style.display = "block";
+}
+function closeEmail12() {
+document.getElementById("email12").style.display = "none";
+}
+</script>
+</td>
+</tr>
+<tr class="w3-animate-zoom" onclick="openEmail11();">
+<td>"Moore, Josh" <jjm702@msstate.edu></td>
+<td>test</td>
+<td><p>Fri, 01 Oct 21 03:53PM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email11">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: "Moore, Josh" <jjm702@msstate.edu><br>
+Subject: test</h5>
+<h6>Date: Fri, 01 Oct 21 03:53PM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css" style="display:none;"> P {margin-top:0;margin-bottom:0;} 
+</style>
+
+</head>
+
+<body dir="ltr">
+
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+kasljdf
+</div>
+
+</body>
+
+</html>
+
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: test` , `
+
+<html>
+
+<head>
+
+<meta http-equiv=Content-Type content=text/html; charset=iso-8859-1>
+
+<style type=text/css style=display:none;> P {margin-top:0;margin-bottom:0;} 
+</style>
+
+</head>
+
+<body dir=ltr>
+
+<div style=font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);>
+kasljdf
+</div>
+
+</body>
+
+</html>
+` , ``, `jjm702@msstate.edu`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+test` , `
+
+<html>
+
+<head>
+
+<meta http-equiv=Content-Type content=text/html; charset=iso-8859-1>
+
+<style type=text/css style=display:none;> P {margin-top:0;margin-bottom:0;} 
+</style>
+
+</head>
+
+<body dir=ltr>
+
+<div style=font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);>
+kasljdf
+</div>
+
+</body>
+
+</html>
+` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail11();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail11(){
+document.getElementById("email11").style.display = "block";
+}
+function closeEmail11() {
+document.getElementById("email11").style.display = "none";
+}
+</script>
+</td>
+</tr>
+<tr class="w3-animate-zoom" onclick="openEmail10();">
+<td>"Ellis, Cameron" <ce731@msstate.edu</td>
+<td>Re: myneighbor2</td>
+<td><p>Fri, 01 Oct 21 03:48PM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email10">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: "Ellis, Cameron" <ce731@msstate.edu<br>
+Subject: Re: myneighbor2</h5>
+<h6>Date: Fri, 01 Oct 21 03:48PM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+
+<style type="text/css" style="display:none;"> P {margin-top:0;margin-bottom:0;} 
+</style>
+
+</head>
+
+<body dir="ltr">
+
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+here are the pictures of those children you requested. This is the last time Im doing this. It is the fifth time this week Im out of pictures until my niece comes to visit next weekend so dont bother me
+</div>
+
+<div id="appendonsend">
+</div>
+
+<hr style="display:inline-block;width:98%" tabindex="-1">
+
+<div id="divRplyFwdMsg" dir="ltr">
+<font face="Calibri, sans-serif" style="font-size:11pt" color="#000000">
+<b>From:
+</b> msuwebmail1@gmail.com &lt;msuwebmail1@gmail.com&gt;
+<br>
+
+<b>Sent:
+</b> Friday, October 1, 2021 10:26 AM
+<br>
+
+<b>To:
+</b> Ellis, Cameron &lt;ce731@msstate.edu&gt;
+<br>
+
+<b>Subject:
+</b> myneighbor2
+</font>
+
+<div>&nbsp;
+</div>
+
+</div>
+
+<div class="BodyFragment">
+<font size="2">
+<span style="font-size:11pt;">
+
+<div class="PlainText">hey boi
+<br>
+
+</div>
+
+</span>
+</font>
+</div>
+
+</body>
+
+</html>
+
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: Re: myneighbor2` , `
+
+<html>
+
+<head>
+
+<meta http-equiv=Content-Type content=text/html; charset=us-ascii>
+
+<style type=text/css style=display:none;> P {margin-top:0;margin-bottom:0;} 
+</style>
+
+</head>
+
+<body dir=ltr>
+
+<div style=font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);>
+here are the pictures of those children you requested. This is the last time Im doing this. It is the fifth time this week Im out of pictures until my niece comes to visit next weekend so dont bother me
+</div>
+
+<div id=appendonsend>
+</div>
+
+<hr style=display:inline-block;width:98% tabindex=-1>
+
+<div id=divRplyFwdMsg dir=ltr>
+<font face=Calibri, sans-serif style=font-size:11pt color=#000000>
+<b>From:
+</b> msuwebmail1@gmail.com &lt;msuwebmail1@gmail.com&gt;
+<br>
+
+<b>Sent:
+</b> Friday, October 1, 2021 10:26 AM
+<br>
+
+<b>To:
+</b> Ellis, Cameron &lt;ce731@msstate.edu&gt;
+<br>
+
+<b>Subject:
+</b> myneighbor2
+</font>
+
+<div>&nbsp;
+</div>
+
+</div>
+
+<div class=BodyFragment>
+<font size=2>
+<span style=font-size:11pt;>
+
+<div class=PlainText>hey boi
+<br>
+
+</div>
+
+</span>
+</font>
+</div>
+
+</body>
+
+</html>
+` , ``, `ce731@msstate.ed`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+Re: myneighbor2` , `
+
+<html>
+
+<head>
+
+<meta http-equiv=Content-Type content=text/html; charset=us-ascii>
+
+<style type=text/css style=display:none;> P {margin-top:0;margin-bottom:0;} 
+</style>
+
+</head>
+
+<body dir=ltr>
+
+<div style=font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);>
+here are the pictures of those children you requested. This is the last time Im doing this. It is the fifth time this week Im out of pictures until my niece comes to visit next weekend so dont bother me
+</div>
+
+<div id=appendonsend>
+</div>
+
+<hr style=display:inline-block;width:98% tabindex=-1>
+
+<div id=divRplyFwdMsg dir=ltr>
+<font face=Calibri, sans-serif style=font-size:11pt color=#000000>
+<b>From:
+</b> msuwebmail1@gmail.com &lt;msuwebmail1@gmail.com&gt;
+<br>
+
+<b>Sent:
+</b> Friday, October 1, 2021 10:26 AM
+<br>
+
+<b>To:
+</b> Ellis, Cameron &lt;ce731@msstate.edu&gt;
+<br>
+
+<b>Subject:
+</b> myneighbor2
+</font>
+
+<div>&nbsp;
+</div>
+
+</div>
+
+<div class=BodyFragment>
+<font size=2>
+<span style=font-size:11pt;>
+
+<div class=PlainText>hey boi
+<br>
+
+</div>
+
+</span>
+</font>
+</div>
+
+</body>
+
+</html>
+` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail10();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail10(){
+document.getElementById("email10").style.display = "block";
+}
+function closeEmail10() {
+document.getElementById("email10").style.display = "none";
+}
+</script>
+</td>
+</tr>
+<tr class="w3-animate-zoom" onclick="openEmail9();">
+<td>msuwebmail1@gmail.com</td>
+<td>ajlskdf</td>
+<td><p>Fri, 01 Oct 21 10:25AM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email9">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: msuwebmail1@gmail.com<br>
+Subject: ajlskdf</h5>
+<h6>Date: Fri, 01 Oct 21 10:25AM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">asdjkfl
+
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: ajlskdf` , `
+asdjkfl
+` , ``, `msuwebmail1@gmail.co`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+ajlskdf` , `
+asdjkfl
+` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail9();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail9(){
+document.getElementById("email9").style.display = "block";
+}
+function closeEmail9() {
+document.getElementById("email9").style.display = "none";
+}
+</script>
+</td>
+</tr>
+<tr class="w3-animate-zoom" onclick="openEmail8();">
+<td>msuwebmail1@gmail.com</td>
+<td>hey</td>
+<td><p>Fri, 01 Oct 21 09:48AM</p>
+<div style=" display: none; position: fixed; padding-top: 200px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(128,0,,.2);" id="email8">
+<div class="text-left w3-container w3-animate-zoom" style=" word-wrap: break-word; position: relative; margin: auto; width: 600px; height: 700px; overflow: auto; background-color: white; padding: 10px; padding-bottom: 0px; padding-right: 0px; border: 10px outset #800000;"><div style="margin: auto; border: 3px solid #800000;"><h5>From: msuwebmail1@gmail.com<br>
+Subject: hey</h5>
+<h6>Date: Fri, 01 Oct 21 09:48AM</h6></div><br>
+<div style="word-wrap: break-word; margin: auto; border: 3px solid #800000; min-height: 700px; padding: 10px;">hey
+
+</div>
+<div style="bottom: 5%; left: 0; position: sticky; height: 85px; width: 175px;">
+<button class="btn btn-danger"  type="button" onclick='openForm(`Re: hey` , `
+hey
+` , ``, `msuwebmail1@gmail.co`)' style="position: absolute; left: 165%; bottom: -30%; display: inline-block;">Reply</button>
+<button class="btn btn-danger"  type="button" onclick='openForm(`
+hey` , `
+hey
+` , `
+`)' style="position: absolute; left: 210%; bottom: -30%; display: inline-block;">Forward</button>
+<button class="btn btn-danger" style="position: absolute; left: 265%; bottom: -30%; display: inline-block;" type="button" onclick="closeEmail8();event.stopPropagation()">Cancel</button></div>
+</div>
+</div>
+<script>
+function openEmail8(){
+document.getElementById("email8").style.display = "block";
+}
+function closeEmail8() {
+document.getElementById("email8").style.display = "none";
+}
+</script>
+</td>
+</tr>
+</table>
+<br><button class="btn btn-lg btn-danger" id="rev" onclick="Rev()"><- Page</button>
+<button class="btn btn-lg btn-danger" id="tab" onclick="Tab()">Page -></button>
+<form style="display: inline-block;" onsubmit="Page()" action="pageforward" method="POST" >
+<button class="btn btn-lg btn-danger" id="page" name="page" value="7">Page -></button>
+</form><br>
+<br><button class="btn btn-lg btn-danger btn-block" onclick="openForm('','', '', '')" id="sendmail" value="sendMail">Send mail</button>
+<div  style=" display: none; position: fixed; padding-top: 100px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; margin: auto; background-color: rgba(0,0,255,.2);" id="myForm">
+<form class="w3-container w3-center w3-animate-zoom" action="sendmail" style=" position: relative; margin: auto; width: 800px; background-color: white; padding: 10px; border: 10px outset #800000;" method="POST" enctype="multipart/form-data">
+<h1>Email Client</h1>
+<h1 class="h3 mb-3 font-weight-normal">Send Email</h1>
+<label for="sendto" class="sr-only">To:</label>
+<input type="email" name= "toemail" id="sendto" class="form-control" placeholder="To" required autofocus>
+<label for="subject" class="sr-only">Subject</label>
+<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
+<label for="msgbody" class="sr-only">Message Body</label>
+<textarea name="msgbody" id="msgbody" placeholder="Message Body" required rows="10" cols="10"><script></script></textarea>
+<label for="attachment" class="sr-only">Attachment</label>
+<input type="file" name="attachment" id="attachment" class="form-control" placeholder="Attachment (optional)">
+<button class="btn btn-lg btn-danger btn-block" type="submit">Send</button>
+<button class="btn btn-lg btn-danger btn-block" type="button" onclick="closeForm()">Cancel</button>
+</form>
+</div>
+</div>
+<script>
+
+if(sessionStorage.tab == 0){
+document.getElementById("rev").style.display = "none";
+}
+if(sessionStorage.tab == sessionStorage.page){
+document.getElementById("tab").style.display = "none";
+document.getElementById("page").style.display = "inline-block";
+}
+if (sessionStorage.tab > 0){
+document.getElementById("rev").style.display = "inline-block";
+}
+if(sessionStorage.tab < sessionStorage.page){
+document.getElementById("page").style.display = "none";
+document.getElementById("tab").style.display = "inline-block";
+}
+function Page() {
+  sessionStorage.page = Number(sessionStorage.page)+1;
+  sessionStorage.tab = Number(sessionStorage.tab)+1;
+}
+function Rev(){
+
+  sessionStorage.tab = Number(sessionStorage.tab)-1;
+  window.history.back();
+}
+function Tab(){
+  sessionStorage.tab = Number(sessionStorage.tab)+1;
+  window.history.forward();
+
+}
+function Reset(){
+    sessionStorage['page'] = 0;
+    sessionStorage['tab'] = 0;
+}
+
+function openForm(s, b, a, r){
+CKEDITOR.replace( 'msgbody', {height: 500, contentsCss: "body {font-size: 20px;}"});
+CKEDITOR.config.readOnly = false;
+CKEDITOR.config.allowedContent = 'img a h1 h2 h3 p blockquote strong em div{margin-left, padding, background-color};' + 'a[!href];' + 'img(left,right)[!src,alt,width,height];' + 'div[!contenteditable, !style];' + 'p[!contenteditable];';
+if ((s || b || a) && !r){
+var forward = '--------- Forwarded message ---------- <br>';
+var date = 'Date: Fri, 01 Oct 21 09:48AM<br>';
+var from = 'From: msuwebmail1@gmail.com<br>';
+var subject = 'Subject: hey<br>';
+var to = 'To: msuwebmail1@gmail.com<br>';
+var att = a;
+var forward = forward.concat(from, date, subject, to, b, a);
+CKEDITOR.instances.msgbody.setData(forward);
+document.getElementById("subject").value = s; 
+}
+if(r){
+var reply = `<p contenteditable='false'> On Fri, 01 Oct 21 09:48AM msuwebmail1@gmail.com wrote: </p><div contenteditable='false' style="margin-left: 20px; padding: 10px; background-color: rgba(0,0,220,.1);">` + b + `</div><br>`;
+document.getElementById("sendto").value = 'msuwebmail1@gmail.com'; 
+document.getElementById("subject").value = s; 
+CKEDITOR.instances.msgbody.setData(reply);
+}
+document.getElementById("myForm").style.display = "block";
+b = '';
+}
+function closeForm() {
+document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+</html>
