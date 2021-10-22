@@ -3,8 +3,8 @@
 ## Members
 
 * Name: Joshua Moore - Student ID: jjm702
-* Name: Rushma - Student ID: 
-* Name: Khem Dhami- Student ID: 
+* Name: Rushma - Student ID: kbd167
+* Name: Khem Dhami- Student ID: rp1349
 
 ## Languages Used
 
