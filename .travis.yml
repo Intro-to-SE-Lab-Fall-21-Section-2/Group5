@@ -13,4 +13,4 @@ install:
   - pip install test_requirements.txt
   
  script:
-  - python WebApp/main.py test
+  - python tst.main.py test
