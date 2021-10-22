@@ -26,7 +26,6 @@ import email
 import sys
 import os
 import shutil
-from cryptography.fernet import Fernet
 import webbrowser
 import os.path
 from os import path
