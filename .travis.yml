@@ -9,10 +9,5 @@ install:
   - pip install Flask-Mail
   - pip install flask-WTF
   - pip install flask-sqlalchemy
-
-jobs:
-  include:
-    - stage: "Tests"                # naming the Tests stage
-      name: "Unit Tests"            # names the first Tests stage job
-      script: ./UnitTest
-    
+script:
+  - python test.py
