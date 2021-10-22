@@ -10,4 +10,4 @@ install:
   - pip install flask-WTF
   - pip install flask-sqlalchemy
 script:
-  - python test.py
+  - python main.py
