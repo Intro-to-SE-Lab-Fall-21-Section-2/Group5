@@ -9,4 +9,4 @@ install:
   - pip install Flask-Mail
   - pip install flask-WTF
 script:
-  - python main.py
+  - python WebApp/main.py
