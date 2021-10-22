@@ -13,7 +13,6 @@
 * Bootstrap
 * HTML
 * CSS
-* 
 
 ## Description
 
@@ -26,5 +25,3 @@ An elegant and simple frontend for gmail named MSU Webmail. This makes it to whe
 * Search and attach images
 * Store user login information in a file for future reference
 * Create an Ad-Free Expereience for the user of gmail
-
-u
