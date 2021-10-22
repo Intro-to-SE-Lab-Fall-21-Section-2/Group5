@@ -10,4 +10,4 @@ install:
   - pip install flask-WTF
   - pip install flask-sqlalchemy
 script:
-  - python WebApp/main.py
+  - python webmail.py
