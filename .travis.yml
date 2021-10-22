@@ -4,5 +4,4 @@ install:
   - pip install Flask-Mail
   - pip install flask-WTF
   - pip install flask-sqlalchemy
-  - conda build your-conda-recipe
-  - conda install your-package --use-local
+
