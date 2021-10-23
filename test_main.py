@@ -5,15 +5,12 @@ import tempfile
 
 class FlaskrTestCase(unittest.TestCase):
 
-    def setUp(self):
-        self.db_fd, flask.app.config['DATABASE'] = tempfile.mkstemp()
-        flaskr.app.config['TESTING'] = True
-        self.app = flask.app.test_client()
-        flaskr.init_db()
+    class Test1(TestCase):
+    def UserCredentials_right(self):
+        self.assertTrue(True)
 
-    def tearDown(self):
-        os.close(self.db_fd)
-        os.unlink(flask.app.config['DATABASE'])
+    def UserCredentials_false(self):
+        self.assertTrue(False)
 
 if __name__ == '__main__':
     unittest.main()
