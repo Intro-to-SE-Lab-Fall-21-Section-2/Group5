@@ -1,16 +1,13 @@
-import os
-import flask
-import unittest
-import tempfile
+from WebApp.main import login
 
-class FlaskrTestCase(unittest.TestCase):
 
-    class Test1(TestCase):
-    def UserCredentials_right(self):
-        self.assertTrue(True)
-
-    def UserCredentials_false(self):
-        self.assertTrue(False)
-
-if __name__ == '__main__':
-    unittest.main()
+def test_new_user():
+    """
+    GIVEN a User model
+    WHEN a new User is created
+    THEN check the email, hashed_password, and role fields are defined correctly
+    """
+    user = User('patkennedy79@gmail.com', 'FlaskIsAwesome')
+    assert userEmail.email == 'patkennedy79@gmail.com'
+    assert user.hashed_password != 'FlaskIsAwesome'
+    assert user.role == 'user'
