@@ -12,4 +12,4 @@ install:
   - pip install test_requirements.txt
   
  script:
-  - python tst.main.py test
+  - python WebApp/main.py UnitTest
