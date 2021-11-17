@@ -71,9 +71,10 @@ def login():
         if authenticate() and attempts > 0:
             return redirect('/inbox')
         else:
-            attempts -= 1
 
-        return render_template('/login.html', error=error)
+            return render_template('/login.html', error=error)
+        #attemps+1
+        #print(attempts)
     else:
         return render_template('/login.html')
 
