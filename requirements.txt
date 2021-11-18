@@ -1,0 +1,9 @@
+
+virtualenv
+flask
+Flask-Mail
+flask-WTF
+flask-sqlalchemy
+
+  
+
